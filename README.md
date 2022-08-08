@@ -4,16 +4,20 @@ SERVER ADDRESS: *class-walt.craft.playit.gg*
 
 ## HOSTING SERVER - *Instructions*
 
-Ensure `git` is installed by typing `git --version`.
+Ensure `git` is installed by typing `git --version` in a command prompt.
 
-Clone the repository with 
+Clone the repository with the following command:
 
 ```bash
 git clone https://github.com/collinjones/MC-Server-1.19
 ```
 
 ### Mac OS
-Navigate to where you cloned the directory in a terminal window and run the command `./run.sh`.
+Navigate to where you cloned the directory in a terminal window and run the following command:
+
+```bash
+./run.sh
+```
 
 ### Windows 10 / 11
 Navigate to where you cloned the directory in Windows Explorer and run the file `run.bat`
@@ -22,7 +26,7 @@ Navigate to where you cloned the directory in Windows Explorer and run the file 
 
 Remember to always pull changes before running the server, and to always pull beforing pushing any changes. 
 
-run `git pull` from the server directory to pull from the repo. 
+run `git pull` in your command prompt from the server directory to pull from the repo. 
 
 To push your changes, close the server and run these commands from the server directory:
 
