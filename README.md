@@ -37,8 +37,12 @@ Navigate to where you cloned the directory in a terminal window and run the foll
 ./run.sh
 ```
 
+Now run the app `playit.app`. 
+
 ### Windows 10 / 11
-Navigate to where you cloned the directory in Windows Explorer and run the file `run.bat`
+Navigate to where you cloned the directory in Windows Explorer and run the file `run.bat`.
+
+Now run the executable `playit.exe`.
 
 ## Pulling and Pushing Changes
 
