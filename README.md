@@ -20,7 +20,7 @@ Clone the repository.
 
 1. Close Minecraft
 
-2. Run `forge-1.19-41.1.0-installer.jar`
+2. Navigate to the cloned directory and run `forge-1.19-41.1.0-installer.jar`
 
     2a. Choose 'install client', select OK
 
