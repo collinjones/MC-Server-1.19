@@ -28,6 +28,6 @@ Clone the repository.
 
     3a. Delete the cloned repository. 
 
-4. Run Minecraft launcher. To left of play button, select `forge 1.19-forge-41.1.0`
+4. Run Minecraft launcher. Select `forge 1.19-forge-41.1.0` to left of play button.
 
 5. Add server class-walt.craft.playit.gg
