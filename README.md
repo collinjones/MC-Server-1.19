@@ -20,13 +20,13 @@ Clone the repository.
 
 1. Close Minecraft
 
-2. Run `forge-installer.jar`
+2. Run `forge-1.19-41.1.0-installer.jar`
     a. Choose 'install client', select OK
 
 3. Extract contents of the mods folder into your mods folder
 
     3a. Delete the cloned repository. 
 
-4. Run Minecraft launcher. To left of play button, select `forge 1.19-forge-41.0.111`
+4. Run Minecraft launcher. To left of play button, select `forge 1.19-forge-41.1.0`
 
 5. Add server class-walt.craft.playit.gg
