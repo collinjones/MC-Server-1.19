@@ -21,7 +21,8 @@ Clone the repository.
 1. Close Minecraft
 
 2. Run `forge-1.19-41.1.0-installer.jar`
-    a. Choose 'install client', select OK
+
+    2a. Choose 'install client', select OK
 
 3. Extract contents of the mods folder into your mods folder
 
