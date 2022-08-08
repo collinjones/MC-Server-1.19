@@ -6,7 +6,7 @@ SERVER ADDRESS: *class-walt.craft.playit.gg*
 
 Ensure `git` is installed by typing `git --version`.
 
-Clone the repository with `git clone https://github.com/collinjones/MC-Server-1.19`
+Clone the repository with ```git clone https://github.com/collinjones/MC-Server-1.19```
 
 ### Mac OS
 Navigate to where you cloned the directory in a terminal window and run the command `./run.sh`.
