@@ -1,122 +1,102 @@
-[08Aug2022 04:42:38.906] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 41.1.0, --fml.mcVersion, 1.19, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220607.102129]
-[08Aug2022 04:42:38.908] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 12.5
-[08Aug2022 04:42:38.984] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/collinjones/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2362!/ Service=ModLauncher Env=SERVER
-[08Aug2022 04:42:39.154] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/fmlcore/1.19-41.1.0/fmlcore-1.19-41.1.0.jar is missing mods.toml file
-[08Aug2022 04:42:39.155] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/javafmllanguage/1.19-41.1.0/javafmllanguage-1.19-41.1.0.jar is missing mods.toml file
-[08Aug2022 04:42:39.156] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/lowcodelanguage/1.19-41.1.0/lowcodelanguage-1.19-41.1.0.jar is missing mods.toml file
-[08Aug2022 04:42:39.156] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/mclanguage/1.19-41.1.0/mclanguage-1.19-41.1.0.jar is missing mods.toml file
-[08Aug2022 04:42:39.193] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[08Aug2022 04:42:39.745] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Aug2022 04:42:39.759] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[08Aug2022 04:42:39.819] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/gravestone/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.gravestone.events.DeathEvents)
-[08Aug2022 04:42:39.820] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/corpse/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.corpse.events.DeathEvents)
-[08Aug2022 04:42:41.656] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[08Aug2022 04:42:42.469] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 41.1.0, for MC 1.19 with MCP 20220607.102129
-[08Aug2022 04:42:42.469] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v41.1.0 Initialized
-[08Aug2022 04:42:42.493] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[08Aug2022 04:42:42.493] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[08Aug2022 04:42:42.493] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[08Aug2022 04:42:42.493] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[08Aug2022 04:42:42.493] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[08Aug2022 04:42:42.493] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[08Aug2022 04:42:42.493] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[08Aug2022 04:42:43.205] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 19 compatible attributes.
-[08Aug2022 04:42:43.208] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 19 values from config.
-[08Aug2022 04:42:43.213] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 19 entries.
-[08Aug2022 04:42:43.214] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 19 attributes.
-[08Aug2022 04:42:43.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.19
-[08Aug2022 04:42:43.901] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Aug2022 04:42:43.912] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 11.1.9 Target: 11.1.9
-[08Aug2022 04:42:43.912] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[08Aug2022 04:42:43.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.0.4 Target: null
-[08Aug2022 04:42:43.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19
-[08Aug2022 04:42:44.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 14.2.10 Target: 14.2.10
-[08Aug2022 04:42:44.103] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[08Aug2022 04:42:44.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA_OUTDATED Current: 7.0.0-pre33 Target: 7.0.0-pre34
-[08Aug2022 04:42:44.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.19
-[08Aug2022 04:42:44.441] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[08Aug2022 13:05:05.322] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 41.1.0, --fml.mcVersion, 1.19, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220607.102129]
+[08Aug2022 13:05:05.325] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 12.5
+[08Aug2022 13:05:05.408] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/collinjones/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2362!/ Service=ModLauncher Env=SERVER
+[08Aug2022 13:05:05.596] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/fmlcore/1.19-41.1.0/fmlcore-1.19-41.1.0.jar is missing mods.toml file
+[08Aug2022 13:05:05.596] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/javafmllanguage/1.19-41.1.0/javafmllanguage-1.19-41.1.0.jar is missing mods.toml file
+[08Aug2022 13:05:05.597] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/lowcodelanguage/1.19-41.1.0/lowcodelanguage-1.19-41.1.0.jar is missing mods.toml file
+[08Aug2022 13:05:05.598] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/mclanguage/1.19-41.1.0/mclanguage-1.19-41.1.0.jar is missing mods.toml file
+[08Aug2022 13:05:05.637] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[08Aug2022 13:05:06.272] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08Aug2022 13:05:06.284] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[08Aug2022 13:05:06.346] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/gravestone/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.gravestone.events.DeathEvents)
+[08Aug2022 13:05:06.347] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/corpse/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.corpse.events.DeathEvents)
+[08Aug2022 13:05:08.530] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[08Aug2022 13:05:09.383] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 41.1.0, for MC 1.19 with MCP 20220607.102129
+[08Aug2022 13:05:09.383] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v41.1.0 Initialized
+[08Aug2022 13:05:09.395] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[08Aug2022 13:05:09.396] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[08Aug2022 13:05:09.396] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[08Aug2022 13:05:09.396] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[08Aug2022 13:05:09.396] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[08Aug2022 13:05:09.396] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[08Aug2022 13:05:09.396] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[08Aug2022 13:05:10.125] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 19 compatible attributes.
+[08Aug2022 13:05:10.127] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 19 values from config.
+[08Aug2022 13:05:10.130] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 19 entries.
+[08Aug2022 13:05:10.130] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 19 attributes.
+[08Aug2022 13:05:10.217] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.19
+[08Aug2022 13:05:10.820] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 11.1.9 Target: 11.1.9
+[08Aug2022 13:05:10.820] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[08Aug2022 13:05:10.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.0.4 Target: null
+[08Aug2022 13:05:10.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19
+[08Aug2022 13:05:10.938] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Aug2022 13:05:11.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 14.2.10 Target: 14.2.10
+[08Aug2022 13:05:11.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[08Aug2022 13:05:11.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.0.6 Target: null
+[08Aug2022 13:05:11.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[08Aug2022 13:05:11.198] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA_OUTDATED Current: 7.0.0-pre33 Target: 7.0.0-pre34
+[08Aug2022 13:05:11.198] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.19
+[08Aug2022 13:05:11.342] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2368!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2368!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2368!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2368!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19-41.1.0.jar%23115!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19-41.1.0.jar%23118!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19-41.1.0.jar%23115!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19-41.1.0.jar%23118!/:?]
 Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2368!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2368!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2368!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2368!/:?]
 	... 6 more
-[08Aug2022 04:42:44.441] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Aug2022 04:42:44.474] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/collinjones/Server/libraries/net/minecraft/server/1.19-20220607.102129/server-1.19-20220607.102129-srg.jar%23114!/assets/.mcassetsroot' uses unexpected schema
-[08Aug2022 04:42:44.474] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/collinjones/Server/libraries/net/minecraft/server/1.19-20220607.102129/server-1.19-20220607.102129-srg.jar%23114!/data/.mcassetsroot' uses unexpected schema
-[08Aug2022 04:42:44.740] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 41.1.0 Target: null
-[08Aug2022 04:42:49.029] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[08Aug2022 04:42:49.381] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement exlinecopperequipment:recipes/misc/copper_pickaxe: Unknown item id 'minecraft:copper_pickaxe'
-[08Aug2022 04:42:49.412] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1995 advancements
-[08Aug2022 04:42:50.659] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19
-[08Aug2022 04:42:50.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Aug2022 04:42:50.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Aug2022 04:42:50.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Aug2022 04:42:50.717] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Aug2022 04:42:50.727] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[08Aug2022 04:42:50.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Aug2022 04:42:50.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Aug2022 04:42:52.345] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 04:42:52.349] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 04:42:53.028] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 04:42:53.032] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 04:42:53.037] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 04:42:53.470] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 04:42:53.929] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2960 ms
-[08Aug2022 04:42:53.930] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.136s)! For help, type "help"
-[08Aug2022 04:42:53.938] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Aug2022 04:43:35.895] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
-[08Aug2022 04:43:37.543] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@34f198e
-[08Aug2022 04:43:37.553] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:49255] logged in with entity id 286 at (2942.710775478166, 58.0, 399.1248220018795)
-[08Aug2022 04:43:37.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
-[08Aug2022 04:43:39.712] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2168ms or 43 ticks behind
-[08Aug2022 04:43:54.106] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
-[08Aug2022 04:43:54.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
-[08Aug2022 04:44:30.009] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
-[08Aug2022 04:44:31.602] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4022a0f5
-[08Aug2022 04:44:31.607] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:49274] logged in with entity id 767 at (2942.7271351602462, 58.0, 396.8994506653936)
-[08Aug2022 04:44:31.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
-[08Aug2022 04:53:04.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup has made the advancement [Nest Builder]
-[08Aug2022 04:56:11.509] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[08Aug2022 04:56:11.556] [Server thread/INFO] [naturescompass/]: Search succeeded: 1153 radius, 459 samples
-[08Aug2022 05:20:54.571] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[08Aug2022 05:20:54.735] [Server thread/INFO] [naturescompass/]: Search succeeded: 4160 radius, 6351 samples
-[08Aug2022 05:21:10.055] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[08Aug2022 05:21:10.527] [Server thread/INFO] [naturescompass/]: Search failed: 10001 radius, 24532 samples
-[08Aug2022 05:21:19.271] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[08Aug2022 05:21:19.446] [Server thread/INFO] [naturescompass/]: Search succeeded: 4761 radius, 7364 samples
-[08Aug2022 05:21:52.670] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[08Aug2022 05:21:52.845] [Server thread/INFO] [naturescompass/]: Search succeeded: 4210 radius, 7347 samples
-[08Aug2022 05:22:00.150] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[08Aug2022 05:22:00.612] [Server thread/INFO] [naturescompass/]: Search failed: 10001 radius, 24532 samples
-[08Aug2022 05:22:26.469] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
-[08Aug2022 05:22:26.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
-[08Aug2022 05:25:37.315] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
-[08Aug2022 05:25:38.921] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@53e2c4cf
-[08Aug2022 05:25:38.924] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:49659] logged in with entity id 9192 at (2969.4557021252017, 66.0, 413.53183736999387)
-[08Aug2022 05:25:38.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
-[08Aug2022 05:50:02.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup has made the advancement [Incubation Inspiration]
-[08Aug2022 05:50:31.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup has made the advancement [Beginner Oology]
-[08Aug2022 05:54:51.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup has made the advancement [Eggs to the Max]
-[08Aug2022 05:56:16.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup has made the advancement [Home Tweet Home]
-[08Aug2022 05:59:39.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup has made the advancement [Birdwatcher]
-[08Aug2022 06:01:36.994] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
-[08Aug2022 06:01:36.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
-[08Aug2022 06:01:52.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08Aug2022 06:01:52.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08Aug2022 06:01:52.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08Aug2022 06:01:53.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[08Aug2022 06:01:53.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[08Aug2022 06:01:53.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[08Aug2022 06:01:53.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08Aug2022 06:01:53.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08Aug2022 06:01:53.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08Aug2022 06:01:53.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Aug2022 13:05:11.343] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Aug2022 13:05:11.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 41.1.0 Target: null
+[08Aug2022 13:05:11.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastleafdecay] Starting version check at https://www.olafkeijsers.net/fastleafdecay-update.json
+[08Aug2022 13:05:11.619] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/collinjones/Server/libraries/net/minecraft/server/1.19-20220607.102129/server-1.19-20220607.102129-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
+[08Aug2022 13:05:11.620] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/collinjones/Server/libraries/net/minecraft/server/1.19-20220607.102129/server-1.19-20220607.102129-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
+[08Aug2022 13:05:12.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastleafdecay] Found status: BETA Current: 30 Target: null
+[08Aug2022 13:05:12.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.19
+[08Aug2022 13:05:12.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 9.0.0+7 Target: 9.0.0+7
+[08Aug2022 13:05:17.064] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[08Aug2022 13:05:17.445] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement exlinecopperequipment:recipes/misc/copper_pickaxe: Unknown item id 'minecraft:copper_pickaxe'
+[08Aug2022 13:05:17.476] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2176 advancements
+[08Aug2022 13:05:18.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19
+[08Aug2022 13:05:18.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Aug2022 13:05:18.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Aug2022 13:05:18.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Aug2022 13:05:18.926] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Aug2022 13:05:18.934] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[08Aug2022 13:05:19.000] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/fastleafdecay-server.toml is not correct. Correcting
+[08Aug2022 13:05:19.001] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MinimumDecayTime was corrected from null to its default, 4. 
+[08Aug2022 13:05:19.001] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaximumDecayTime was corrected from null to its default, 11. 
+[08Aug2022 13:05:19.021] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Aug2022 13:05:19.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Aug2022 13:05:21.065] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2022 13:05:21.066] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2022 13:05:21.069] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2022 13:05:21.074] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2022 13:05:21.265] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2022 13:05:21.670] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[08Aug2022 13:05:22.014] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2853 ms
+[08Aug2022 13:05:22.014] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.016s)! For help, type "help"
+[08Aug2022 13:05:22.022] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Aug2022 13:06:47.203] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
+[08Aug2022 13:06:48.927] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@ce0ef3e
+[08Aug2022 13:06:48.939] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:49263] logged in with entity id 285 at (2939.4344299786894, 63.0, 417.16518119679216)
+[08Aug2022 13:06:48.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
+[08Aug2022 13:06:51.013] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[08Aug2022 13:06:51.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
+[08Aug2022 13:06:51.058] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
+[08Aug2022 13:06:51.059] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2022 13:06:57.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Aug2022 13:06:57.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Aug2022 13:06:57.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Aug2022 13:06:58.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Aug2022 13:06:58.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Aug2022 13:06:58.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Aug2022 13:06:58.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Aug2022 13:06:58.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Aug2022 13:06:58.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Aug2022 13:06:58.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
