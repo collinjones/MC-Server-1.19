@@ -4,7 +4,7 @@ SERVER ADDRESS: *class-walt.craft.playit.gg*
 
 ## JOINING SERVER - *Instructions*
 
-Clone the repository with this link: https://github.com/collinjones/MC-Server-1.19/archive/refs/heads/master.zip
+Download the repository with this link: https://github.com/collinjones/MC-Server-1.19/archive/refs/heads/master.zip
 
 1. Close Minecraft
 
