@@ -31,7 +31,7 @@ git clone https://github.com/collinjones/MC-Server-1.19
 ```
 
 ### Mac OS
-Navigate to where you cloned the directory in a terminal window and run the following command:
+Navigate to where you cloned the directory in a terminal window and execute the following command:
 
 ```bash
 ./run.sh
