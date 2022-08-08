@@ -4,8 +4,6 @@ SERVER ADDRESS: *class-walt.craft.playit.gg*
 
 ## JOINING SERVER - *Instructions*
 
-### Setup instructions:
-
 Clone the repository. 
 
 1. Close Minecraft
