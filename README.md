@@ -14,7 +14,16 @@ Navigate to where you cloned the directory in a terminal window and run the comm
 ### Windows 10 / 11
 Navigate to where you cloned the directory in Windows Explorer and run the file `run.bat`
 
-!To
+## REMEMBER TO ALWAYS PULL BEFORE PUSHING
+
+To push your changes, close the server and run these commands from the server directory:
+
+```bash
+git add *
+git commit -m "<Insert message>"
+git push 
+```
+
 
 ## JOINING SERVER - *Instructions*
 
