@@ -2,6 +2,26 @@
 
 SERVER ADDRESS: *class-walt.craft.playit.gg*
 
+## JOINING SERVER - *Instructions*
+
+### Setup instructions:
+
+Clone the repository. 
+
+1. Close Minecraft
+
+2. Navigate to the cloned directory and run `forge-1.19-41.1.0-installer.jar`
+
+    2a. Choose 'install client', select OK
+
+3. Extract contents of the mods folder into your mods folder
+
+    3a. Delete the cloned repository. 
+
+4. Run Minecraft launcher. Select `forge 1.19-forge-41.1.0` to left of play button.
+
+5. Add server address class-walt.craft.playit.gg. 
+
 ## HOSTING SERVER - *Instructions*
 
 Ensure `git` is installed by typing `git --version` in a command prompt.
@@ -37,22 +57,4 @@ git push
 ```
 
 
-## JOINING SERVER - *Instructions*
 
-### Setup instructions:
-
-Clone the repository. 
-
-1. Close Minecraft
-
-2. Navigate to the cloned directory and run `forge-1.19-41.1.0-installer.jar`
-
-    2a. Choose 'install client', select OK
-
-3. Extract contents of the mods folder into your mods folder
-
-    3a. Delete the cloned repository. 
-
-4. Run Minecraft launcher. Select `forge 1.19-forge-41.1.0` to left of play button.
-
-5. Add server class-walt.craft.playit.gg
