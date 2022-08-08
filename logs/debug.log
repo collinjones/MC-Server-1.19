@@ -1,0 +1,1268 @@
+[07Aug2022 21:21:15.609] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 41.1.0, --fml.mcVersion, 1.19, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220607.102129]
+[07Aug2022 21:21:15.611] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 12.5
+[07Aug2022 21:21:15.622] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[07Aug2022 21:21:15.629] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[07Aug2022 21:21:15.636] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[07Aug2022 21:21:15.641] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[07Aug2022 21:21:15.651] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[07Aug2022 21:21:15.656] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[07Aug2022 21:21:15.656] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[07Aug2022 21:21:15.656] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[07Aug2022 21:21:15.656] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[07Aug2022 21:21:15.656] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[07Aug2022 21:21:15.657] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[07Aug2022 21:21:15.657] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[07Aug2022 21:21:15.657] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.8+10.0.8+main.0ef7e830
+[07Aug2022 21:21:15.658] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[07Aug2022 21:21:15.658] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.0+6.0.0+master.901864e5
+[07Aug2022 21:21:15.658] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[07Aug2022 21:21:15.659] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[07Aug2022 21:21:15.659] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+[07Aug2022 21:21:15.659] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[07Aug2022 21:21:15.660] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[07Aug2022 21:21:15.660] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[07Aug2022 21:21:15.663] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[07Aug2022 21:21:15.663] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[07Aug2022 21:21:15.669] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@10e41621
+[07Aug2022 21:21:15.677] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/collinjones/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2362!/ Service=ModLauncher Env=SERVER
+[07Aug2022 21:21:15.679] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[07Aug2022 21:21:15.679] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Aug2022 21:21:15.679] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Aug2022 21:21:15.679] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Aug2022 21:21:15.679] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Aug2022 21:21:15.679] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[07Aug2022 21:21:15.680] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[07Aug2022 21:21:15.681] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[07Aug2022 21:21:15.681] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[07Aug2022 21:21:15.681] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /Users/collinjones/Server
+[07Aug2022 21:21:15.681] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /Users/collinjones/Server
+[07Aug2022 21:21:15.681] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : /Users/collinjones/Server/mods
+[07Aug2022 21:21:15.681] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /Users/collinjones/Server/mods
+[07Aug2022 21:21:15.681] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : /Users/collinjones/Server/config
+[07Aug2022 21:21:15.681] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /Users/collinjones/Server/config
+[07Aug2022 21:21:15.682] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /Users/collinjones/Server/config/fml.toml
+[07Aug2022 21:21:15.682] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[07Aug2022 21:21:15.701] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : /Users/collinjones/Server/defaultconfigs
+[07Aug2022 21:21:15.701] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[07Aug2022 21:21:15.702] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[07Aug2022 21:21:15.703] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[07Aug2022 21:21:15.712] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=41.1.0, mcVersion=1.19, mcpVersion=20220607.102129, forgeGroup=net.minecraftforge]
+[07Aug2022 21:21:15.713] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[07Aug2022 21:21:15.713] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[07Aug2022 21:21:15.713] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[07Aug2022 21:21:15.714] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[07Aug2022 21:21:15.714] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[07Aug2022 21:21:15.714] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[07Aug2022 21:21:15.714] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[07Aug2022 21:21:15.714] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[07Aug2022 21:21:15.719] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[07Aug2022 21:21:15.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[07Aug2022 21:21:15.721] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[07Aug2022 21:21:15.725] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/another_furniture-forge-2.0.2-1.19.jar
+[07Aug2022 21:21:15.748] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file another_furniture-forge-2.0.2-1.19.jar with {another_furniture} mods - versions {2.0.2-1.19}
+[07Aug2022 21:21:15.748] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/balm-4.5.1.jar
+[07Aug2022 21:21:15.750] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file balm-4.5.1.jar with {balm} mods - versions {4.5.1}
+[07Aug2022 21:21:15.751] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/collective-1.19.0-4.30.jar
+[07Aug2022 21:21:15.752] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file collective-1.19.0-4.30.jar with {collective} mods - versions {4.30}
+[07Aug2022 21:21:15.752] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/copper-equipment.jar
+[07Aug2022 21:21:15.753] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file copper-equipment.jar with {exlinecopperequipment} mods - versions {2.0.4}
+[07Aug2022 21:21:15.753] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/duckling-2.0.4-forge.jar
+[07Aug2022 21:21:15.754] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file duckling-2.0.4-forge.jar with {duckling} mods - versions {2.0.4}
+[07Aug2022 21:21:15.755] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/exoticbirds-1.19-2.2.0.jar
+[07Aug2022 21:21:15.756] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file exoticbirds-1.19-2.2.0.jar with {exoticbirds} mods - versions {2.2.0}
+[07Aug2022 21:21:15.757] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/geckolib-forge-1.19-3.1.9.jar
+[07Aug2022 21:21:15.758] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-forge-1.19-3.1.9.jar with {geckolib3} mods - versions {3.1.9}
+[07Aug2022 21:21:15.759] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/player-heads.jar
+[07Aug2022 21:21:15.759] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file player-heads.jar with {justplayerheads} mods - versions {2.2}
+[07Aug2022 21:21:15.760] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/supermartijn642configlib-1.1.6b-forge-mc1.19.jar
+[07Aug2022 21:21:15.761] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file supermartijn642configlib-1.1.6b-forge-mc1.19.jar with {supermartijn642configlib} mods - versions {1.1.6b}
+[07Aug2022 21:21:15.761] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/supermartijn642corelib-1.0.19a-forge-mc1.19.jar
+[07Aug2022 21:21:15.762] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file supermartijn642corelib-1.0.19a-forge-mc1.19.jar with {supermartijn642corelib} mods - versions {1.0.19a}
+[07Aug2022 21:21:15.764] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/terralith.jar
+[07Aug2022 21:21:15.765] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file terralith.jar with {terralith} mods - versions {0.0NONE}
+[07Aug2022 21:21:15.766] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/tombstones.jar
+[07Aug2022 21:21:15.767] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tombstones.jar with {tombstone} mods - versions {8.0.4}
+[07Aug2022 21:21:15.767] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/wormhole-1.1.10b-forge-mc1.19.jar
+[07Aug2022 21:21:15.768] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file wormhole-1.1.10b-forge-mc1.19.jar with {wormhole} mods - versions {1.1.10b}
+[07Aug2022 21:21:15.842] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.19-20220607.102129-srg.jar with {minecraft} mods - versions {1.19}
+[07Aug2022 21:21:15.843] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/libraries/net/minecraftforge/fmlcore/1.19-41.1.0/fmlcore-1.19-41.1.0.jar
+[07Aug2022 21:21:15.843] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/fmlcore/1.19-41.1.0/fmlcore-1.19-41.1.0.jar is missing mods.toml file
+[07Aug2022 21:21:15.844] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/libraries/net/minecraftforge/javafmllanguage/1.19-41.1.0/javafmllanguage-1.19-41.1.0.jar
+[07Aug2022 21:21:15.845] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/javafmllanguage/1.19-41.1.0/javafmllanguage-1.19-41.1.0.jar is missing mods.toml file
+[07Aug2022 21:21:15.845] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/libraries/net/minecraftforge/lowcodelanguage/1.19-41.1.0/lowcodelanguage-1.19-41.1.0.jar
+[07Aug2022 21:21:15.845] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/lowcodelanguage/1.19-41.1.0/lowcodelanguage-1.19-41.1.0.jar is missing mods.toml file
+[07Aug2022 21:21:15.846] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/libraries/net/minecraftforge/mclanguage/1.19-41.1.0/mclanguage-1.19-41.1.0.jar
+[07Aug2022 21:21:15.846] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/mclanguage/1.19-41.1.0/mclanguage-1.19-41.1.0.jar is missing mods.toml file
+[07Aug2022 21:21:15.863] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/libraries/net/minecraftforge/forge/1.19-41.1.0/forge-1.19-41.1.0-universal.jar
+[07Aug2022 21:21:15.864] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19-41.1.0-universal.jar with {forge} mods - versions {41.1.0}
+[07Aug2022 21:21:15.870] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from server-1.19-20220607.102129-srg.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.870] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from tombstones.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from supermartijn642configlib-1.1.6b-forge-mc1.19.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from wormhole-1.1.10b-forge-mc1.19.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from another_furniture-forge-2.0.2-1.19.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from balm-4.5.1.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from terralith.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from supermartijn642corelib-1.0.19a-forge-mc1.19.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from copper-equipment.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.19-41.1.0-universal.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from player-heads.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from exoticbirds-1.19-2.2.0.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from geckolib-forge-1.19-3.1.9.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from duckling-2.0.4-forge.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from collective-1.19.0-4.30.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.19-41.1.0.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.19-41.1.0.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.871] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.19-41.1.0.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.872] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.19-41.1.0.jar, it does not contain dependency information.
+[07Aug2022 21:21:15.884] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[07Aug2022 21:21:15.886] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.19-20220607.102129-srg.jar with {minecraft} mods - versions {1.19}
+[07Aug2022 21:21:15.887] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/libraries/net/minecraft/server/1.19-20220607.102129/server-1.19-20220607.102129-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[07Aug2022 21:21:15.888] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/tombstones.jar
+[07Aug2022 21:21:15.888] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tombstones.jar with {tombstone} mods - versions {8.0.4}
+[07Aug2022 21:21:15.888] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/tombstones.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.888] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/supermartijn642configlib-1.1.6b-forge-mc1.19.jar
+[07Aug2022 21:21:15.889] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file supermartijn642configlib-1.1.6b-forge-mc1.19.jar with {supermartijn642configlib} mods - versions {1.1.6b}
+[07Aug2022 21:21:15.889] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/supermartijn642configlib-1.1.6b-forge-mc1.19.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.889] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/another_furniture-forge-2.0.2-1.19.jar
+[07Aug2022 21:21:15.890] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file another_furniture-forge-2.0.2-1.19.jar with {another_furniture} mods - versions {2.0.2-1.19}
+[07Aug2022 21:21:15.890] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/another_furniture-forge-2.0.2-1.19.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.890] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/wormhole-1.1.10b-forge-mc1.19.jar
+[07Aug2022 21:21:15.891] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file wormhole-1.1.10b-forge-mc1.19.jar with {wormhole} mods - versions {1.1.10b}
+[07Aug2022 21:21:15.891] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/wormhole-1.1.10b-forge-mc1.19.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.891] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/balm-4.5.1.jar
+[07Aug2022 21:21:15.891] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file balm-4.5.1.jar with {balm} mods - versions {4.5.1}
+[07Aug2022 21:21:15.891] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/balm-4.5.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.891] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/supermartijn642corelib-1.0.19a-forge-mc1.19.jar
+[07Aug2022 21:21:15.892] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file supermartijn642corelib-1.0.19a-forge-mc1.19.jar with {supermartijn642corelib} mods - versions {1.0.19a}
+[07Aug2022 21:21:15.892] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/supermartijn642corelib-1.0.19a-forge-mc1.19.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.892] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/terralith.jar
+[07Aug2022 21:21:15.892] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file terralith.jar with {terralith} mods - versions {0.0NONE}
+[07Aug2022 21:21:15.892] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/terralith.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[07Aug2022 21:21:15.892] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/copper-equipment.jar
+[07Aug2022 21:21:15.893] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file copper-equipment.jar with {exlinecopperequipment} mods - versions {2.0.4}
+[07Aug2022 21:21:15.893] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/copper-equipment.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.893] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/libraries/net/minecraftforge/forge/1.19-41.1.0/forge-1.19-41.1.0-universal.jar
+[07Aug2022 21:21:15.894] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19-41.1.0-universal.jar with {forge} mods - versions {41.1.0}
+[07Aug2022 21:21:15.894] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/libraries/net/minecraftforge/forge/1.19-41.1.0/forge-1.19-41.1.0-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[07Aug2022 21:21:15.908] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[07Aug2022 21:21:15.908] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[07Aug2022 21:21:15.908] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[07Aug2022 21:21:15.908] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[07Aug2022 21:21:15.908] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[07Aug2022 21:21:15.908] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[07Aug2022 21:21:15.908] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/exoticbirds-1.19-2.2.0.jar
+[07Aug2022 21:21:15.909] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file exoticbirds-1.19-2.2.0.jar with {exoticbirds} mods - versions {2.2.0}
+[07Aug2022 21:21:15.909] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/exoticbirds-1.19-2.2.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.909] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/player-heads.jar
+[07Aug2022 21:21:15.909] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file player-heads.jar with {justplayerheads} mods - versions {2.2}
+[07Aug2022 21:21:15.909] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/player-heads.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.909] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/geckolib-forge-1.19-3.1.9.jar
+[07Aug2022 21:21:15.910] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-forge-1.19-3.1.9.jar with {geckolib3} mods - versions {3.1.9}
+[07Aug2022 21:21:15.910] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/geckolib-forge-1.19-3.1.9.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.910] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/collective-1.19.0-4.30.jar
+[07Aug2022 21:21:15.910] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file collective-1.19.0-4.30.jar with {collective} mods - versions {4.30}
+[07Aug2022 21:21:15.910] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/collective-1.19.0-4.30.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.910] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/collinjones/Server/mods/duckling-2.0.4-forge.jar
+[07Aug2022 21:21:15.911] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file duckling-2.0.4-forge.jar with {duckling} mods - versions {2.0.4}
+[07Aug2022 21:21:15.911] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/collinjones/Server/mods/duckling-2.0.4-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[07Aug2022 21:21:15.912] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[07Aug2022 21:21:15.917] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[07Aug2022 21:21:15.917] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[07Aug2022 21:21:15.918] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 41
+[07Aug2022 21:21:15.918] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 41
+[07Aug2022 21:21:15.920] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[07Aug2022 21:21:15.921] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[07Aug2022 21:21:15.921] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[07Aug2022 21:21:15.922] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 28 mod requirements (28 mandatory, 0 optional)
+[07Aug2022 21:21:15.922] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[07Aug2022 21:21:16.128] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[07Aug2022 21:21:16.128] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[07Aug2022 21:21:16.129] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[07Aug2022 21:21:16.129] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[07Aug2022 21:21:16.129] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[07Aug2022 21:21:16.129] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[07Aug2022 21:21:16.211] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[07Aug2022 21:21:16.211] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[07Aug2022 21:21:16.239] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[07Aug2022 21:21:16.239] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[07Aug2022 21:21:16.255] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[07Aug2022 21:21:16.257] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2503ec73 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[07Aug2022 21:21:16.258] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4288d98e to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[07Aug2022 21:21:16.258] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@169268a7 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[07Aug2022 21:21:16.258] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@285c6918 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[07Aug2022 21:21:16.261] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@78a0ff63 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[07Aug2022 21:21:16.261] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7c601d50 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[07Aug2022 21:21:16.261] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@79b2852b to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[07Aug2022 21:21:16.261] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@326d27ac to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[07Aug2022 21:21:16.261] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4d499d65 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[07Aug2022 21:21:16.261] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(tombstone)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(tombstone)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(tombstone)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(tombstone)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(tombstone)
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(tombstone)]
+[07Aug2022 21:21:16.449] [main/DEBUG] [mixin/]: Registering mixin config: tombstone.mixins.json
+[07Aug2022 21:21:16.456] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by tombstone.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[07Aug2022 21:21:16.458] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(supermartijn642configlib)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(supermartijn642configlib)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(supermartijn642configlib)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(supermartijn642configlib)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(supermartijn642configlib)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(supermartijn642configlib)]
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(another_furniture)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(another_furniture)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(another_furniture)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(another_furniture)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(another_furniture)
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(another_furniture)]
+[07Aug2022 21:21:16.458] [main/DEBUG] [mixin/]: Registering mixin config: another_furniture-common.mixins.json
+[07Aug2022 21:21:16.460] [main/DEBUG] [mixin/]: Registering mixin config: another_furniture.mixins.json
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(wormhole)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(wormhole)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(wormhole)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(wormhole)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(wormhole)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(wormhole)]
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(balm)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(balm)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(balm)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(balm)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(balm)
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(balm)]
+[07Aug2022 21:21:16.461] [main/DEBUG] [mixin/]: Registering mixin config: balm.mixins.json
+[07Aug2022 21:21:16.462] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(supermartijn642corelib)
+[07Aug2022 21:21:16.462] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(supermartijn642corelib)
+[07Aug2022 21:21:16.462] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(supermartijn642corelib)
+[07Aug2022 21:21:16.462] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(supermartijn642corelib)
+[07Aug2022 21:21:16.462] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(supermartijn642corelib)
+[07Aug2022 21:21:16.462] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(supermartijn642corelib)]
+[07Aug2022 21:21:16.462] [main/DEBUG] [mixin/]: Registering mixin config: supermartijn642corelib.mixins.json
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(terralith)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(terralith)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(terralith)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(terralith)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(terralith)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(terralith)]
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(exlinecopperequipment)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(exlinecopperequipment)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(exlinecopperequipment)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(exlinecopperequipment)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(exlinecopperequipment)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(exlinecopperequipment)]
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[07Aug2022 21:21:16.463] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(exoticbirds)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(exoticbirds)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(exoticbirds)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(exoticbirds)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(exoticbirds)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(exoticbirds)]
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(justplayerheads)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(justplayerheads)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(justplayerheads)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(justplayerheads)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(justplayerheads)
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justplayerheads)]
+[07Aug2022 21:21:16.464] [main/DEBUG] [mixin/]: Registering mixin config: serilumforgemod.mixins.json
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(geckolib3)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(geckolib3)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(geckolib3)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(geckolib3)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(geckolib3)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(geckolib3)]
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(collective)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(collective)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(collective)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(collective)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(collective)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(collective)]
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(duckling)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(duckling)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(duckling)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(duckling)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(duckling)
+[07Aug2022 21:21:16.465] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(duckling)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: inject() running with 16 agents
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(tombstone)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(supermartijn642configlib)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(another_furniture)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(wormhole)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(balm)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(supermartijn642corelib)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(terralith)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(exlinecopperequipment)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(exoticbirds)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justplayerheads)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(geckolib3)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(collective)]
+[07Aug2022 21:21:16.466] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(duckling)]
+[07Aug2022 21:21:16.466] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[07Aug2022 21:21:16.480] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[07Aug2022 21:21:16.481] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[07Aug2022 21:21:16.481] [main/DEBUG] [mixin/]: Selecting config tombstone.mixins.json
+[07Aug2022 21:21:16.483] [main/DEBUG] [mixin/]: Selecting config another_furniture-common.mixins.json
+[07Aug2022 21:21:16.483] [main/DEBUG] [mixin/]: Selecting config another_furniture.mixins.json
+[07Aug2022 21:21:16.484] [main/DEBUG] [mixin/]: Selecting config balm.mixins.json
+[07Aug2022 21:21:16.487] [main/DEBUG] [mixin/]: Selecting config supermartijn642corelib.mixins.json
+[07Aug2022 21:21:16.487] [main/DEBUG] [mixin/]: Selecting config serilumforgemod.mixins.json
+[07Aug2022 21:21:16.488] [main/DEBUG] [mixin/]: Preparing tombstone.mixins.json (8)
+[07Aug2022 21:21:16.504] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[07Aug2022 21:21:16.524] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/gravestone/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.gravestone.events.DeathEvents)
+[07Aug2022 21:21:16.524] [main/DEBUG] [mixin/]: Skipping virtual target de.maxhenkel.gravestone.events.DeathEvents for tombstone.mixins.json:CheckGravestone
+[07Aug2022 21:21:16.525] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/corpse/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.corpse.events.DeathEvents)
+[07Aug2022 21:21:16.525] [main/DEBUG] [mixin/]: Skipping virtual target de.maxhenkel.corpse.events.DeathEvents for tombstone.mixins.json:CheckCorpse
+[07Aug2022 21:21:16.527] [main/DEBUG] [mixin/]: Preparing another_furniture-common.mixins.json (1)
+[07Aug2022 21:21:16.532] [main/DEBUG] [mixin/]: Preparing another_furniture.mixins.json (1)
+[07Aug2022 21:21:16.534] [main/DEBUG] [mixin/]: Preparing balm.mixins.json (15)
+[07Aug2022 21:21:16.544] [main/DEBUG] [mixin/]: Preparing supermartijn642corelib.mixins.json (1)
+[07Aug2022 21:21:16.544] [main/DEBUG] [mixin/]: Preparing serilumforgemod.mixins.json (0)
+[07Aug2022 21:21:16.551] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[07Aug2022 21:21:16.552] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[07Aug2022 21:21:16.553] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[07Aug2022 21:21:16.554] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[07Aug2022 21:21:16.554] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[07Aug2022 21:21:16.555] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[07Aug2022 21:21:16.569] [main/DEBUG] [mixin/]: Mixing MinecraftServerMixin from balm.mixins.json into net.minecraft.server.MinecraftServer
+[07Aug2022 21:21:16.572] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$reloadResources$0(Ljava/lang/Void;)V to md34b99d$lambda$reloadResources$0$0 in balm.mixins.json:MinecraftServerMixin
+[07Aug2022 21:21:16.614] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[07Aug2022 21:21:16.616] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[07Aug2022 21:21:16.616] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[07Aug2022 21:21:16.671] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3
+[07Aug2022 21:21:16.672] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@34340fab
+[07Aug2022 21:21:16.945] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3
+[07Aug2022 21:21:16.945] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@34340fab
+[07Aug2022 21:21:17.312] [main/DEBUG] [mixin/]: Mixing BlockMixin from another_furniture-common.mixins.json into net.minecraft.world.level.block.Block
+[07Aug2022 21:21:17.407] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[07Aug2022 21:21:17.465] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[07Aug2022 21:21:17.482] [main/DEBUG] [mixin/]: Mixing FireBlockAccessor from another_furniture.mixins.json into net.minecraft.world.level.block.FireBlock
+[07Aug2022 21:21:17.488] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[07Aug2022 21:21:17.496] [main/DEBUG] [mixin/]: Mixing CropBlockMixin from balm.mixins.json into net.minecraft.world.level.block.CropBlock
+[07Aug2022 21:21:17.521] [main/DEBUG] [mixin/]: Mixing StemBlockMixin from balm.mixins.json into net.minecraft.world.level.block.StemBlock
+[07Aug2022 21:21:17.535] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[07Aug2022 21:21:17.870] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[07Aug2022 21:21:17.871] [main/DEBUG] [mixin/]: Mixing ItemStackMixin from tombstone.mixins.json into net.minecraft.world.item.ItemStack
+[07Aug2022 21:21:18.419] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[07Aug2022 21:21:18.770] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[07Aug2022 21:21:18.994] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[07Aug2022 21:21:19.033] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[07Aug2022 21:21:19.082] [main/DEBUG] [mixin/]: Mixing SlotAccessor from balm.mixins.json into net.minecraft.world.inventory.Slot
+[07Aug2022 21:21:19.219] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5544
+[07Aug2022 21:21:19.228] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 10 threads for parallel mod-loading
+[07Aug2022 21:21:19.231] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.231] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for ovh.corail.tombstone.ModTombstone
+[07Aug2022 21:21:19.234] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.234] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.supermartijn642.configlib.ConfigLib
+[07Aug2022 21:21:19.234] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.234] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.supermartijn642.wormhole.Wormhole
+[07Aug2022 21:21:19.235] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.235] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.starfish_studios.another_furniture.forge.AnotherFurnitureForge
+[07Aug2022 21:21:19.235] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.235] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.blay09.mods.balm.forge.ForgeBalm
+[07Aug2022 21:21:19.235] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.235] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.stardustlabs.terralith.Terralith
+[07Aug2022 21:21:19.235] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.235] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.supermartijn642.core.CoreLib
+[07Aug2022 21:21:19.236] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.236] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.exline.exlinecopperequipment.CopperEquipment
+[07Aug2022 21:21:19.236] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.236] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[07Aug2022 21:21:19.237] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.237] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.natamus.justplayerheads.Main
+[07Aug2022 21:21:19.237] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.237] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.pavocado.exoticbirds.ExoticBirdsMod
+[07Aug2022 21:21:19.237] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.237] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for software.bernie.example.GeckoLibMod
+[07Aug2022 21:21:19.238] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.238] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for tech.thatgravyboat.duckling.forge.DucklingForge
+[07Aug2022 21:21:19.238] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@24eb65e3 - got cpw.mods.cl.ModuleClassLoader@3e83c18
+[07Aug2022 21:21:19.238] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.natamus.collective.Main
+[07Aug2022 21:21:19.246] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for supermartijn642corelib
+[07Aug2022 21:21:19.256] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for terralith
+[07Aug2022 21:21:19.263] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for exlinecopperequipment
+[07Aug2022 21:21:19.265] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 41.1 from cpw.mods.modlauncher.TransformingClassLoader@24eb65e3
+[07Aug2022 21:21:19.266] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 41.1.0
+[07Aug2022 21:21:19.266] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 41.1
+[07Aug2022 21:21:19.266] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[07Aug2022 21:21:19.266] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.exline.exlinecopperequipment.CopperEquipment to MOD
+[07Aug2022 21:21:19.266] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.19 from cpw.mods.modlauncher.TransformingClassLoader@24eb65e3
+[07Aug2022 21:21:19.266] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.19
+[07Aug2022 21:21:19.266] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220607.102129
+[07Aug2022 21:21:19.266] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 41.1.0, for MC 1.19 with MCP 20220607.102129
+[07Aug2022 21:21:19.267] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v41.1.0 Initialized
+[07Aug2022 21:21:19.268] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for supermartijn642configlib
+[07Aug2022 21:21:19.272] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file collective-common.toml for collective tracking
+[07Aug2022 21:21:19.272] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file justplayerheads-common.toml for justplayerheads tracking
+[07Aug2022 21:21:19.272] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for justplayerheads
+[07Aug2022 21:21:19.273] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.natamus.justplayerheads.events.PlayerEvent to FORGE
+[07Aug2022 21:21:19.273] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for collective
+[07Aug2022 21:21:19.273] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.natamus.collective.events.CollectiveEvents to FORGE
+[07Aug2022 21:21:19.276] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for geckolib3
+[07Aug2022 21:21:19.276] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing software.bernie.example.GeckoLibMod to FORGE
+[07Aug2022 21:21:19.277] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing software.bernie.example.CommonListener to MOD
+[07Aug2022 21:21:19.279] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for wormhole
+[07Aug2022 21:21:19.279] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.supermartijn642.wormhole.Wormhole$RegistryEvents to MOD
+[07Aug2022 21:21:19.284] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.supermartijn642.wormhole.PortalGroupCapability to FORGE
+[07Aug2022 21:21:19.284] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for another_furniture
+[07Aug2022 21:21:19.285] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.starfish_studios.another_furniture.forge.AnotherFurnitureForgeClient to MOD
+[07Aug2022 21:21:19.287] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file tombstone-client.toml for tombstone tracking
+[07Aug2022 21:21:19.287] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for duckling
+[07Aug2022 21:21:19.287] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file tombstone-common.toml for tombstone tracking
+[07Aug2022 21:21:19.287] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.starfish_studios.another_furniture.data.forge.data.DataGenerators to MOD
+[07Aug2022 21:21:19.290] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[07Aug2022 21:21:19.290] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[07Aug2022 21:21:19.290] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[07Aug2022 21:21:19.290] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[07Aug2022 21:21:19.291] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[07Aug2022 21:21:19.291] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:253) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:247) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19-41.1.0-universal.jar%23114!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:383) ~[forge-1.19-41.1.0-universal.jar%23114!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.19-41.1.0.jar%23111!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:121) ~[fmlcore-1.19-41.1.0.jar%23110!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[07Aug2022 21:21:19.291] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file tombstone-server.toml for tombstone tracking
+[07Aug2022 21:21:19.291] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[07Aug2022 21:21:19.292] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:375) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:366) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.76.Final.jar%2379!/:4.1.76.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.19-41.1.0-universal.jar%23114!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:383) ~[forge-1.19-41.1.0-universal.jar%23114!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[javafmllanguage-1.19-41.1.0.jar%23111!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:121) ~[fmlcore-1.19-41.1.0.jar%23110!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[07Aug2022 21:21:19.292] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[07Aug2022 21:21:19.292] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[07Aug2022 21:21:19.293] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8589934592 bytes (maybe)
+[07Aug2022 21:21:19.293] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /var/folders/93/_2_md02d0659zn8l93q0h8b40000gn/T (java.io.tmpdir)
+[07Aug2022 21:21:19.293] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[07Aug2022 21:21:19.293] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: MacOS
+[07Aug2022 21:21:19.293] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for tombstone
+[07Aug2022 21:21:19.293] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[07Aug2022 21:21:19.293] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing ovh.corail.tombstone.registry.Registration to MOD
+[07Aug2022 21:21:19.293] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[07Aug2022 21:21:19.294] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[07Aug2022 21:21:19.294] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[07Aug2022 21:21:19.294] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing ovh.corail.tombstone.perk.PerkRegistry to MOD
+[07Aug2022 21:21:19.295] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing ovh.corail.tombstone.helper.LootHelper to FORGE
+[07Aug2022 21:21:19.297] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for balm
+[07Aug2022 21:21:19.305] [modloading-worker-0/DEBUG] [mixin/]: Mixing LootTableAccessor from tombstone.mixins.json into net.minecraft.world.level.storage.loot.LootTable
+[07Aug2022 21:21:19.307] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file exoticbirds-common.toml for exoticbirds tracking
+[07Aug2022 21:21:19.307] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for exoticbirds
+[07Aug2022 21:21:19.307] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.pavocado.exoticbirds.ModEventSubscriber to MOD
+[07Aug2022 21:21:19.309] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.pavocado.exoticbirds.ForgeEventSubscriber to FORGE
+[07Aug2022 21:21:19.309] [modloading-worker-0/DEBUG] [mixin/]: Mixing DamageSourceAccessor from balm.mixins.json into net.minecraft.world.damagesource.DamageSource
+[07Aug2022 21:21:19.309] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[07Aug2022 21:21:19.309] [modloading-worker-0/DEBUG] [mixin/]: Renaming @Invoker method create(Ljava/lang/String;)Lnet/minecraft/world/damagesource/DamageSource; to create_$md$34b99d$0 in balm.mixins.json:DamageSourceAccessor
+[07Aug2022 21:21:19.311] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing ovh.corail.tombstone.event.EventHandler to FORGE
+[07Aug2022 21:21:19.313] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[07Aug2022 21:21:19.314] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[07Aug2022 21:21:19.314] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[07Aug2022 21:21:19.321] [modloading-worker-0/DEBUG] [mixin/]: Mixing ReloadableServerResourcesMixin from balm.mixins.json into net.minecraft.server.ReloadableServerResources
+[07Aug2022 21:21:19.321] [modloading-worker-0/DEBUG] [mixin/]: Renaming synthetic method lambda$loadResources$0(Lnet/minecraft/server/ReloadableServerResources;)V to md34b99d$lambda$loadResources$0$0 in balm.mixins.json:ReloadableServerResourcesMixin
+[07Aug2022 21:21:19.325] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[07Aug2022 21:21:19.325] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[07Aug2022 21:21:19.333] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing ovh.corail.tombstone.config.ConfigTombstone$ConfigEvent to MOD
+[07Aug2022 21:21:19.619] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[07Aug2022 21:21:19.619] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /Users/collinjones/Server/config/justplayerheads-common.toml
+[07Aug2022 21:21:19.620] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /Users/collinjones/Server/config/justplayerheads-common.toml
+[07Aug2022 21:21:19.620] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /Users/collinjones/Server/config/justplayerheads-common.toml for changes
+[07Aug2022 21:21:19.621] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /Users/collinjones/Server/config/collective-common.toml
+[07Aug2022 21:21:19.621] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /Users/collinjones/Server/config/collective-common.toml
+[07Aug2022 21:21:19.621] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /Users/collinjones/Server/config/collective-common.toml for changes
+[07Aug2022 21:21:19.622] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /Users/collinjones/Server/config/tombstone-common.toml
+[07Aug2022 21:21:19.622] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /Users/collinjones/Server/config/tombstone-common.toml
+[07Aug2022 21:21:19.622] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /Users/collinjones/Server/config/tombstone-common.toml for changes
+[07Aug2022 21:21:19.624] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /Users/collinjones/Server/config/exoticbirds-common.toml
+[07Aug2022 21:21:19.625] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /Users/collinjones/Server/config/exoticbirds-common.toml
+[07Aug2022 21:21:19.625] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /Users/collinjones/Server/config/exoticbirds-common.toml for changes
+[07Aug2022 21:21:19.625] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /Users/collinjones/Server/config/exoticbirds-common.toml is not correct. Correcting
+[07Aug2022 21:21:19.625] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[07Aug2022 21:21:19.625] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.eggs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[07Aug2022 21:21:19.625] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.eggs.createExoticEggshells was corrected from null to its default, true. 
+[07Aug2022 21:21:19.625] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.eggs.createExoticEggshells does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.626] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.eggs.createChickenEggshells was corrected from null to its default, true. 
+[07Aug2022 21:21:19.626] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.eggs.createChickenEggshells does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.626] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.eggs.allowEggLaying was corrected from null to its default, true. 
+[07Aug2022 21:21:19.626] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.eggs.allowEggLaying does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.626] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.eggs.allowPhoenixHatching was corrected from null to its default, true. 
+[07Aug2022 21:21:19.626] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.eggs.allowPhoenixHatching does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.626] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.eggs.eggLayRate was corrected from null to its default, 12000. 
+[07Aug2022 21:21:19.626] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.eggs.eggLayRate does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.626] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.entity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[07Aug2022 21:21:19.626] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.entity.allowMagpieScavenging was corrected from null to its default, true. 
+[07Aug2022 21:21:19.626] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.entity.allowMagpieScavenging does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.626] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.entity.allowKingfisherScavenging was corrected from null to its default, true. 
+[07Aug2022 21:21:19.626] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.entity.allowKingfisherScavenging does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.626] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.entity.allowPelicanScavenging was corrected from null to its default, true. 
+[07Aug2022 21:21:19.626] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.entity.allowPelicanScavenging does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.626] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.entity.allowOstrichRiding was corrected from null to its default, true. 
+[07Aug2022 21:21:19.627] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.entity.allowOstrichRiding does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.entity.allowPhoenixRiding was corrected from null to its default, true. 
+[07Aug2022 21:21:19.627] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.entity.allowPhoenixRiding does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.entity.allowPigeonMail was corrected from null to its default, true. 
+[07Aug2022 21:21:19.627] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.entity.allowPigeonMail does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.spawning was corrected from null to its default, SimpleCommentedConfig:{}. 
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.spawning.blacklistedSpawningDimensions was corrected from null to its default, []. 
+[07Aug2022 21:21:19.627] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.spawning.blacklistedSpawningDimensions does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.spawning.allowDespawning was corrected from null to its default, false. 
+[07Aug2022 21:21:19.627] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.spawning.allowDespawning does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cages was corrected from null to its default, SimpleCommentedConfig:{}. 
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cages.allowAnythingInCages was corrected from null to its default, false. 
+[07Aug2022 21:21:19.627] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.cages.allowAnythingInCages does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.nests was corrected from null to its default, SimpleCommentedConfig:{}. 
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.nests.allowNestEggRegen was corrected from null to its default, true. 
+[07Aug2022 21:21:19.627] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.nests.allowNestEggRegen does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.nests.nestGenRate was corrected from null to its default, 5. 
+[07Aug2022 21:21:19.627] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.nests.nestGenRate does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.birdbook was corrected from null to its default, SimpleCommentedConfig:{}. 
+[07Aug2022 21:21:19.627] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.birdbook.allowBookExperience was corrected from null to its default, true. 
+[07Aug2022 21:21:19.627] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.birdbook.allowBookExperience does not match the spec. This may create a backup.
+[07Aug2022 21:21:19.628] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /Users/collinjones/Server/config/forge-common.toml
+[07Aug2022 21:21:19.628] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /Users/collinjones/Server/config/forge-common.toml
+[07Aug2022 21:21:19.628] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /Users/collinjones/Server/config/forge-common.toml for changes
+[07Aug2022 21:21:19.628] [main/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[07Aug2022 21:21:19.633] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 2 jobs
+[07Aug2022 21:21:19.640] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 7.042 ms
+[07Aug2022 21:21:19.722] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[07Aug2022 21:21:19.908] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Received version check data:
+{
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/corail-tombstone",
+	"promos": {
+		"1.19.2-latest": "8.1.1",
+		"1.19.2-recommended": "8.1.1",
+		"1.19.1-latest": "8.1.0",
+		"1.19.1-recommended": "8.1.0",
+		"1.19-latest": "8.0.4",
+		"1.19-recommended": "8.0.4",
+		"1.18.2-latest": "7.4.11",
+		"1.18.2-recommended": "7.4.11",
+		"1.18.1-latest": "7.4.1",
+		"1.18.1-recommended": "7.4.1",
+		"1.17.1-latest": "7.3.0",
+		"1.17.1-recommended": "7.3.0",
+		"1.16.5-latest": "6.7.9",
+		"1.16.5-recommended": "6.7.9",
+		"1.15.2-latest": "4.6.0",
+		"1.15.2-recommended": "4.6.0",
+		"1.14.4-latest": "4.3.6",
+		"1.14.4-recommended": "4.3.6",
+		"1.13.2-latest": "3.5.2",
+		"1.13.2-recommended": "3.5.2",
+		"1.12.2-latest": "4.5.7",
+		"1.12.2-recommended": "4.5.7",
+		"1.11.2-latest": "2.9.0.1",
+		"1.11.2-recommended": "2.9.0.1",
+		"1.10.2-latest": "2.9.4",
+		"1.10.2-recommended": "2.9.4",
+		"1.9.4-latest": "1.4.1",
+		"1.9.4-recommended": "1.4.1",
+		"1.8.9-latest": "1.4.1",
+		"1.8.9-recommended": "1.4.1"
+	},
+	"1.19.2": {
+		"8.1.1": "improvements"
+	},
+	"1.19.1": {
+		"8.1.0": "initial port"
+	},
+	"1.19": {
+		"8.0.4": "final version"
+	},
+	"1.18.2": {
+		"7.4.11": "final version"
+	},
+	"1.18.1": {
+		"7.4.1": "final version"
+	},
+	"1.17.1": {
+		"7.3.0": "final version"
+	},
+	"1.16.5": {
+		"6.7.9": "improvements",
+		"6.7.8": "additional compat Dragon Survival(#59)",
+		"6.7.7": "compat Dragon Survival",
+		"6.7.6": "increased range with ankh"
+	},
+	"1.12.2": {
+		"4.5.7": "improvements",
+		"4.5.6": "improves auto-equip",
+		"4.5.5": "fixes & compat FluidLogged Api"
+	}
+}
+[07Aug2022 21:21:19.909] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.0.4 Target: null
+[07Aug2022 21:21:19.909] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07Aug2022 21:21:20.203] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.39",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-latest": "40.1.69",
+    "1.18.2-recommended": "40.1.0",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-latest": "43.0.1"
+  }
+}
+[07Aug2022 21:21:20.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 41.1.0 Target: null
+[07Aug2022 21:21:20.206] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:oak_chair Expected: 962 Got: 984
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:spruce_chair Expected: 963 Got: 985
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:birch_chair Expected: 964 Got: 986
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:jungle_chair Expected: 965 Got: 987
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:acacia_chair Expected: 966 Got: 988
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:dark_oak_chair Expected: 967 Got: 989
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:mangrove_chair Expected: 968 Got: 990
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:crimson_chair Expected: 969 Got: 991
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:warped_chair Expected: 970 Got: 992
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:oak_shelf Expected: 971 Got: 993
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:spruce_shelf Expected: 972 Got: 994
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:birch_shelf Expected: 973 Got: 995
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:jungle_shelf Expected: 974 Got: 996
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:acacia_shelf Expected: 975 Got: 997
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:dark_oak_shelf Expected: 976 Got: 998
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:mangrove_shelf Expected: 977 Got: 999
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:crimson_shelf Expected: 978 Got: 1000
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:warped_shelf Expected: 979 Got: 1001
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:oak_table Expected: 980 Got: 1002
+[07Aug2022 21:21:20.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:spruce_table Expected: 981 Got: 1003
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:birch_table Expected: 982 Got: 1004
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:jungle_table Expected: 983 Got: 1005
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:acacia_table Expected: 984 Got: 1006
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:dark_oak_table Expected: 985 Got: 1007
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:mangrove_table Expected: 986 Got: 1008
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:crimson_table Expected: 987 Got: 1009
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:warped_table Expected: 988 Got: 1010
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:oak_shutter Expected: 989 Got: 1011
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:spruce_shutter Expected: 990 Got: 1012
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:birch_shutter Expected: 991 Got: 1013
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:jungle_shutter Expected: 992 Got: 1014
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:acacia_shutter Expected: 993 Got: 1015
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:dark_oak_shutter Expected: 994 Got: 1016
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:mangrove_shutter Expected: 995 Got: 1017
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:crimson_shutter Expected: 996 Got: 1018
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:warped_shutter Expected: 997 Got: 1019
+[07Aug2022 21:21:20.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:oak_planter_box Expected: 998 Got: 1020
+[07Aug2022 21:21:20.282] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:spruce_planter_box Expected: 999 Got: 1021
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:birch_planter_box Expected: 1000 Got: 1022
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:jungle_planter_box Expected: 1001 Got: 1023
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:acacia_planter_box Expected: 1002 Got: 1024
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:dark_oak_planter_box Expected: 1003 Got: 1025
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:mangrove_planter_box Expected: 1004 Got: 1026
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:crimson_planter_box Expected: 1005 Got: 1027
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:warped_planter_box Expected: 1006 Got: 1028
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:white_stool Expected: 1007 Got: 1029
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:orange_stool Expected: 1008 Got: 1030
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:magenta_stool Expected: 1009 Got: 1031
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:light_blue_stool Expected: 1010 Got: 1032
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:yellow_stool Expected: 1011 Got: 1033
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:lime_stool Expected: 1012 Got: 1034
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:pink_stool Expected: 1013 Got: 1035
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:gray_stool Expected: 1014 Got: 1036
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:light_gray_stool Expected: 1015 Got: 1037
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:cyan_stool Expected: 1016 Got: 1038
+[07Aug2022 21:21:20.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:purple_stool Expected: 1017 Got: 1039
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:blue_stool Expected: 1018 Got: 1040
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:brown_stool Expected: 1019 Got: 1041
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:green_stool Expected: 1020 Got: 1042
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:red_stool Expected: 1021 Got: 1043
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:black_stool Expected: 1022 Got: 1044
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:service_bell Expected: 1023 Got: 1045
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:white_curtain Expected: 1024 Got: 1046
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:orange_curtain Expected: 1025 Got: 1047
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:magenta_curtain Expected: 1026 Got: 1048
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:light_blue_curtain Expected: 1027 Got: 1049
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:yellow_curtain Expected: 1028 Got: 1050
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:lime_curtain Expected: 1029 Got: 1051
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:pink_curtain Expected: 1030 Got: 1052
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:gray_curtain Expected: 1031 Got: 1053
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:light_gray_curtain Expected: 1032 Got: 1054
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:cyan_curtain Expected: 1033 Got: 1055
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:purple_curtain Expected: 1034 Got: 1056
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:blue_curtain Expected: 1035 Got: 1057
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:brown_curtain Expected: 1036 Got: 1058
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:green_curtain Expected: 1037 Got: 1059
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:red_curtain Expected: 1038 Got: 1060
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: another_furniture:black_curtain Expected: 1039 Got: 1061
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:nest Expected: 1040 Got: 1062
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:egg_identifier Expected: 1041 Got: 1063
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:egg_incubator Expected: 1042 Got: 1064
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:iron_birdcage Expected: 1043 Got: 1065
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:gold_birdcage Expected: 1044 Got: 1066
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:oak_birdcage Expected: 1045 Got: 1067
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:spruce_birdcage Expected: 1046 Got: 1068
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:birch_birdcage Expected: 1047 Got: 1069
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:jungle_birdcage Expected: 1048 Got: 1070
+[07Aug2022 21:21:20.284] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:acacia_birdcage Expected: 1049 Got: 1071
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:dark_oak_birdcage Expected: 1050 Got: 1072
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:mangrove_birdcage Expected: 1051 Got: 1073
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:warped_birdcage Expected: 1052 Got: 1074
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:crimson_birdcage Expected: 1053 Got: 1075
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:phoenix_egg Expected: 1054 Got: 1076
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:cloud_phoenix_egg Expected: 1055 Got: 1077
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:desert_phoenix_egg Expected: 1056 Got: 1078
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:ender_phoenix_egg Expected: 1057 Got: 1079
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:fire_phoenix_egg Expected: 1058 Got: 1080
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:nether_phoenix_egg Expected: 1059 Got: 1081
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:skeleton_phoenix_egg Expected: 1060 Got: 1082
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:snowy_phoenix_egg Expected: 1061 Got: 1083
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:twilight_phoenix_egg Expected: 1062 Got: 1084
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:water_phoenix_egg Expected: 1063 Got: 1085
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:hummingbird_feeder Expected: 1064 Got: 1086
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:white_birdhouse Expected: 1065 Got: 1087
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:orange_birdhouse Expected: 1066 Got: 1088
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:magenta_birdhouse Expected: 1067 Got: 1089
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:light_blue_birdhouse Expected: 1068 Got: 1090
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:yellow_birdhouse Expected: 1069 Got: 1091
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:lime_birdhouse Expected: 1070 Got: 1092
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:pink_birdhouse Expected: 1071 Got: 1093
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:gray_birdhouse Expected: 1072 Got: 1094
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:light_gray_birdhouse Expected: 1073 Got: 1095
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:cyan_birdhouse Expected: 1074 Got: 1096
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:purple_birdhouse Expected: 1075 Got: 1097
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:blue_birdhouse Expected: 1076 Got: 1098
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:brown_birdhouse Expected: 1077 Got: 1099
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:green_birdhouse Expected: 1078 Got: 1100
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:red_birdhouse Expected: 1079 Got: 1101
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:black_birdhouse Expected: 1080 Got: 1102
+[07Aug2022 21:21:20.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: exoticbirds:roost_box Expected: 1081 Got: 1103
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:oak_chair Expected: 1234 Got: 1163
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:spruce_chair Expected: 1235 Got: 1164
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:birch_chair Expected: 1236 Got: 1165
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:jungle_chair Expected: 1237 Got: 1166
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:acacia_chair Expected: 1238 Got: 1167
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:dark_oak_chair Expected: 1239 Got: 1168
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:mangrove_chair Expected: 1240 Got: 1169
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:crimson_chair Expected: 1241 Got: 1170
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:warped_chair Expected: 1242 Got: 1171
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:oak_shelf Expected: 1243 Got: 1172
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:spruce_shelf Expected: 1244 Got: 1173
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:birch_shelf Expected: 1245 Got: 1174
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:jungle_shelf Expected: 1246 Got: 1175
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:acacia_shelf Expected: 1247 Got: 1176
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:dark_oak_shelf Expected: 1248 Got: 1177
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:mangrove_shelf Expected: 1249 Got: 1178
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:crimson_shelf Expected: 1250 Got: 1179
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:warped_shelf Expected: 1251 Got: 1262
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:oak_table Expected: 1252 Got: 1263
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:spruce_table Expected: 1253 Got: 1264
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:birch_table Expected: 1254 Got: 1265
+[07Aug2022 21:21:20.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:jungle_table Expected: 1255 Got: 1266
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:acacia_table Expected: 1256 Got: 1267
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:dark_oak_table Expected: 1257 Got: 1268
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:mangrove_table Expected: 1258 Got: 1269
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:crimson_table Expected: 1259 Got: 1270
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:warped_table Expected: 1260 Got: 1271
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:oak_shutter Expected: 1261 Got: 1272
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:spruce_shutter Expected: 1262 Got: 1273
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:birch_shutter Expected: 1263 Got: 1274
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:jungle_shutter Expected: 1264 Got: 1275
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:acacia_shutter Expected: 1265 Got: 1276
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:dark_oak_shutter Expected: 1266 Got: 1277
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:mangrove_shutter Expected: 1267 Got: 1278
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:crimson_shutter Expected: 1268 Got: 1279
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:warped_shutter Expected: 1269 Got: 1280
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:oak_planter_box Expected: 1270 Got: 1281
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:spruce_planter_box Expected: 1271 Got: 1282
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:birch_planter_box Expected: 1272 Got: 1283
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:jungle_planter_box Expected: 1273 Got: 1284
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:acacia_planter_box Expected: 1274 Got: 1285
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:dark_oak_planter_box Expected: 1275 Got: 1286
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:mangrove_planter_box Expected: 1276 Got: 1287
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:crimson_planter_box Expected: 1277 Got: 1288
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:warped_planter_box Expected: 1278 Got: 1289
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:white_stool Expected: 1279 Got: 1290
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:orange_stool Expected: 1280 Got: 1291
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:magenta_stool Expected: 1281 Got: 1292
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:light_blue_stool Expected: 1282 Got: 1293
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:yellow_stool Expected: 1283 Got: 1294
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:lime_stool Expected: 1284 Got: 1295
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:pink_stool Expected: 1285 Got: 1296
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:gray_stool Expected: 1286 Got: 1297
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:light_gray_stool Expected: 1287 Got: 1298
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:cyan_stool Expected: 1288 Got: 1299
+[07Aug2022 21:21:20.287] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:purple_stool Expected: 1289 Got: 1300
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:blue_stool Expected: 1290 Got: 1301
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:brown_stool Expected: 1291 Got: 1302
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:green_stool Expected: 1292 Got: 1303
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:red_stool Expected: 1293 Got: 1304
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:black_stool Expected: 1294 Got: 1305
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:service_bell Expected: 1295 Got: 1306
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:white_curtain Expected: 1296 Got: 1307
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:orange_curtain Expected: 1297 Got: 1308
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:magenta_curtain Expected: 1298 Got: 1309
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:light_blue_curtain Expected: 1299 Got: 1310
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:yellow_curtain Expected: 1300 Got: 1311
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:lime_curtain Expected: 1301 Got: 1312
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:pink_curtain Expected: 1302 Got: 1313
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:gray_curtain Expected: 1303 Got: 1314
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:light_gray_curtain Expected: 1304 Got: 1315
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:cyan_curtain Expected: 1305 Got: 1316
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:purple_curtain Expected: 1306 Got: 1317
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:blue_curtain Expected: 1307 Got: 1318
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:brown_curtain Expected: 1308 Got: 1319
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:green_curtain Expected: 1309 Got: 1320
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:red_curtain Expected: 1310 Got: 1321
+[07Aug2022 21:21:20.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: another_furniture:black_curtain Expected: 1311 Got: 1322
+[07Aug2022 21:21:20.633] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/collinjones/Server/libraries/net/minecraft/server/1.19-20220607.102129/server-1.19-20220607.102129-srg.jar%23109!/assets/.mcassetsroot' uses unexpected schema
+[07Aug2022 21:21:20.633] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/collinjones/Server/libraries/net/minecraft/server/1.19-20220607.102129/server-1.19-20220607.102129-srg.jar%23109!/data/.mcassetsroot' uses unexpected schema
+[07Aug2022 21:21:20.654] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:tombstone for mod file /Users/collinjones/Server/mods/tombstones.jar
+[07Aug2022 21:21:20.654] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:supermartijn642configlib for mod file /Users/collinjones/Server/mods/supermartijn642configlib-1.1.6b-forge-mc1.19.jar
+[07Aug2022 21:21:20.654] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:wormhole for mod file /Users/collinjones/Server/mods/wormhole-1.1.10b-forge-mc1.19.jar
+[07Aug2022 21:21:20.655] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:another_furniture for mod file /Users/collinjones/Server/mods/another_furniture-forge-2.0.2-1.19.jar
+[07Aug2022 21:21:20.655] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:balm for mod file /Users/collinjones/Server/mods/balm-4.5.1.jar
+[07Aug2022 21:21:20.655] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:terralith for mod file /Users/collinjones/Server/mods/terralith.jar
+[07Aug2022 21:21:20.655] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:supermartijn642corelib for mod file /Users/collinjones/Server/mods/supermartijn642corelib-1.0.19a-forge-mc1.19.jar
+[07Aug2022 21:21:20.655] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:exlinecopperequipment for mod file /Users/collinjones/Server/mods/copper-equipment.jar
+[07Aug2022 21:21:20.655] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /Users/collinjones/Server/libraries/net/minecraftforge/forge/1.19-41.1.0/forge-1.19-41.1.0-universal.jar
+[07Aug2022 21:21:20.655] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:justplayerheads for mod file /Users/collinjones/Server/mods/player-heads.jar
+[07Aug2022 21:21:20.655] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:exoticbirds for mod file /Users/collinjones/Server/mods/exoticbirds-1.19-2.2.0.jar
+[07Aug2022 21:21:20.655] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:geckolib3 for mod file /Users/collinjones/Server/mods/geckolib-forge-1.19-3.1.9.jar
+[07Aug2022 21:21:20.656] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:duckling for mod file /Users/collinjones/Server/mods/duckling-2.0.4-forge.jar
+[07Aug2022 21:21:20.656] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:collective for mod file /Users/collinjones/Server/mods/collective-1.19.0-4.30.jar
+[07Aug2022 21:21:20.660] [Worker-Main-4/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /data/realms
+[07Aug2022 21:21:20.660] [Worker-Main-3/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/realms
+[07Aug2022 21:21:20.660] [Worker-Main-4/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.660] [Worker-Main-5/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/terralith
+[07Aug2022 21:21:20.661] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.661] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/balm
+[07Aug2022 21:21:20.661] [Worker-Main-9/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.663] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/carryon
+[07Aug2022 21:21:20.664] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/capsule
+[07Aug2022 21:21:20.665] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/twilightforest
+[07Aug2022 21:21:20.668] [Worker-Main-7/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.671] [Worker-Main-5/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.672] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.672] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/forge
+[07Aug2022 21:21:20.678] [Worker-Main-9/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.678] [Worker-Main-4/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.679] [Worker-Main-4/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/terralith
+[07Aug2022 21:21:20.682] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.683] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.683] [Worker-Main-7/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.684] [Worker-Main-5/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.695] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.696] [Worker-Main-9/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.703] [Worker-Main-9/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.705] [Worker-Main-9/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.707] [Worker-Main-9/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.707] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.708] [Worker-Main-7/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.709] [Worker-Main-7/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.715] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/balm
+[07Aug2022 21:21:20.715] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.716] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.716] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.716] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.716] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/carryon
+[07Aug2022 21:21:20.716] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/capsule
+[07Aug2022 21:21:20.721] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/twilightforest
+[07Aug2022 21:21:20.721] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.721] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.721] [Worker-Main-6/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.722] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.722] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.722] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.722] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.722] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.723] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.723] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.723] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.723] [Worker-Main-5/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.723] [Worker-Main-5/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.723] [Worker-Main-5/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.724] [Worker-Main-5/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.724] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.724] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.724] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.724] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.725] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.725] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/forge
+[07Aug2022 21:21:20.725] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.725] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.725] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.725] [Worker-Main-1/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/minecraft
+[07Aug2022 21:21:20.726] [Worker-Main-8/DEBUG] [net.minecraftforge.resource.ResourceCacheManager$NamespacedResourceCacheManager/]: Failed to cache resources, the directory does not exist!
+cpw.mods.niofs.union.UnionFileSystem$NoSuchFileException: /assets/forge
+[07Aug2022 21:21:24.789] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[07Aug2022 21:21:25.112] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement exlinecopperequipment:recipes/misc/copper_pickaxe: Unknown item id 'minecraft:copper_pickaxe'
+[07Aug2022 21:21:25.130] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1499 advancements
+[07Aug2022 21:21:25.459] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
+[07Aug2022 21:21:25.463] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
+[07Aug2022 21:21:25.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19
+[07Aug2022 21:21:25.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07Aug2022 21:21:25.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07Aug2022 21:21:25.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07Aug2022 21:21:25.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07Aug2022 21:21:25.908] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[07Aug2022 21:21:25.914] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 20
+[07Aug2022 21:21:25.920] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[07Aug2022 21:21:25.920] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[07Aug2022 21:21:25.922] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[07Aug2022 21:21:25.922] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[07Aug2022 21:21:25.925] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[07Aug2022 21:21:25.934] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 1425 (auto-detected)
+[07Aug2022 21:21:25.936] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[07Aug2022 21:21:25.936] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[07Aug2022 21:21:25.941] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+[07Aug2022 21:21:25.941] [Server thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+[07Aug2022 21:21:25.942] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 9c:76:0e:ff:fe:49:00:c9 (auto-detected)
+[07Aug2022 21:21:25.954] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 20
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 20
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[07Aug2022 21:21:25.955] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[07Aug2022 21:21:25.959] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[07Aug2022 21:21:25.959] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[07Aug2022 21:21:25.959] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[07Aug2022 21:21:25.969] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./world/serverconfig
+[07Aug2022 21:21:25.969] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[07Aug2022 21:21:25.969] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /Users/collinjones/Server/config/tombstone-server.toml
+[07Aug2022 21:21:25.969] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /Users/collinjones/Server/config/tombstone-server.toml
+[07Aug2022 21:21:25.969] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /Users/collinjones/Server/config/tombstone-server.toml for changes
+[07Aug2022 21:21:25.970] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./world/serverconfig/forge-server.toml
+[07Aug2022 21:21:25.970] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./world/serverconfig/forge-server.toml
+[07Aug2022 21:21:25.971] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+[07Aug2022 21:21:25.971] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[07Aug2022 21:21:25.987] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07Aug2022 21:21:26.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Aug2022 21:21:28.087] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2022 21:21:28.087] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2022 21:21:28.093] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2022 21:21:28.097] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2022 21:21:28.411] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2022 21:21:28.612] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07Aug2022 21:21:29.097] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2986 ms
+[07Aug2022 21:21:29.098] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.130s)! For help, type "help"
+[07Aug2022 21:21:29.104] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 1831
+[07Aug2022 21:21:29.106] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07Aug2022 21:21:29.217] [Server thread/DEBUG] [tombstone/]: Injecting Fishing LootTable
+[07Aug2022 21:21:29.217] [Server thread/DEBUG] [tombstone/]: Injecting Treasure Chest LootTables
+[07Aug2022 21:21:29.218] [Server thread/DEBUG] [tombstone/]: Injecting Cat Morning LootTable
+[07Aug2022 21:21:29.277] [Server thread/DEBUG] [mixin/]: Mixing EnchantmentMixin from tombstone.mixins.json into net.minecraft.world.item.enchantment.EnchantmentHelper
+[07Aug2022 21:21:29.277] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getSneakingSpeedBonus$0(Lnet/minecraft/world/effect/MobEffectInstance;)Ljava/lang/Float; to md34b99d$lambda$getSneakingSpeedBonus$0$0 in tombstone.mixins.json:EnchantmentMixin
+[07Aug2022 21:21:29.286] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[07Aug2022 21:21:31.110] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[07Aug2022 21:21:31.110] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[07Aug2022 21:21:31.110] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[07Aug2022 21:21:31.110] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[07Aug2022 21:21:31.113] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[07Aug2022 21:21:31.113] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[07Aug2022 21:21:31.114] [Netty Server IO #1/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@f9a727a
+[07Aug2022 21:21:35.012] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 22 messages to dispatch.
+[07Aug2022 21:21:35.476] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
+[07Aug2022 21:21:35.522] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[07Aug2022 21:21:35.572] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[07Aug2022 21:21:35.622] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 2
+[07Aug2022 21:21:35.633] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, lod, tombstone, supermartijn642configlib, wormhole, another_furniture, balm, terralith, supermartijn642corelib, exlinecopperequipment, forge, exoticbirds, geckolib3, duckling, journeymap]
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'exoticbirds:main' : Version test of '1' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'supermartijn642configlib:sync_configs' : Version test of '1' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'tombstone:tombstone_channel' : Version test of 'tombstone-8.0.4' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'geckolib3:main' : Version test of '0' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'wormhole:main' : Version test of '1' from client : ACCEPTED
+[07Aug2022 21:21:35.634] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[07Aug2022 21:21:35.635] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[07Aug2022 21:21:35.672] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 3
+[07Aug2022 21:21:35.681] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[07Aug2022 21:21:35.681] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:35.681] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:35.722] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 4
+[07Aug2022 21:21:35.772] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 5
+[07Aug2022 21:21:35.822] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 6
+[07Aug2022 21:21:35.872] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 7
+[07Aug2022 21:21:35.922] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 8
+[07Aug2022 21:21:35.940] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[07Aug2022 21:21:35.940] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:35.940] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:35.946] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[07Aug2022 21:21:35.946] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:35.946] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:35.946] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[07Aug2022 21:21:35.946] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:35.946] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:35.970] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file justplayerheads-common.toml changed, sending notifies
+[07Aug2022 21:21:35.971] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file exoticbirds-common.toml changed, sending notifies
+[07Aug2022 21:21:35.971] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file tombstone-server.toml changed, sending notifies
+[07Aug2022 21:21:35.972] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:data_serializers' to 'fml:handshake' sequence 9
+[07Aug2022 21:21:35.972] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file tombstone-common.toml changed, sending notifies
+[07Aug2022 21:21:35.974] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-common.toml changed, sending notifies
+[07Aug2022 21:21:35.975] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[07Aug2022 21:21:35.975] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file collective-common.toml changed, sending notifies
+[07Aug2022 21:21:35.975] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[07Aug2022 21:21:35.975] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[07Aug2022 21:21:36.022] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+[07Aug2022 21:21:36.041] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[07Aug2022 21:21:36.041] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.041] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.044] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[07Aug2022 21:21:36.044] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.044] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.044] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[07Aug2022 21:21:36.044] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.044] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.044] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[07Aug2022 21:21:36.044] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.044] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.070] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[07Aug2022 21:21:36.070] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.070] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.072] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+[07Aug2022 21:21:36.121] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[07Aug2022 21:21:36.121] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.121] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.122] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 12
+[07Aug2022 21:21:36.172] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 13
+[07Aug2022 21:21:36.222] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 14
+[07Aug2022 21:21:36.230] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[07Aug2022 21:21:36.230] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.230] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.230] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[07Aug2022 21:21:36.230] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.230] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.269] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[07Aug2022 21:21:36.270] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.270] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.272] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry tombstone:perks' to 'fml:handshake' sequence 15
+[07Aug2022 21:21:36.321] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[07Aug2022 21:21:36.321] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.321] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.322] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 16
+[07Aug2022 21:21:36.369] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[07Aug2022 21:21:36.369] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.369] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.372] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 17
+[07Aug2022 21:21:36.419] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[07Aug2022 21:21:36.419] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.419] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.422] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 18
+[07Aug2022 21:21:36.470] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[07Aug2022 21:21:36.470] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.470] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.472] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 19
+[07Aug2022 21:21:36.522] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config tombstone-server.toml' to 'fml:handshake' sequence 20
+[07Aug2022 21:21:36.572] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 21
+[07Aug2022 21:21:36.859] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[07Aug2022 21:21:36.859] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.859] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.859] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[07Aug2022 21:21:36.859] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.859] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.861] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[07Aug2022 21:21:36.861] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[07Aug2022 21:21:36.861] [Netty Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[07Aug2022 21:21:36.872] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[07Aug2022 21:21:36.964] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1110ef0c
+[07Aug2022 21:21:36.977] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:49760] logged in with entity id 286 at (2942.710775478166, 58.0, 399.1248220018795)
+[07Aug2022 21:21:36.984] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@6c850d6d into net.minecraft.network.Connection@f2dea1e
+[07Aug2022 21:21:37.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
+[07Aug2022 21:21:39.115] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2145ms or 42 ticks behind
+[07Aug2022 21:21:39.831] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x26c8decc5b77b0a7
+[07Aug2022 21:21:42.105] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[07Aug2022 21:21:42.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
