@@ -14,7 +14,11 @@ Navigate to where you cloned the directory in a terminal window and run the comm
 ### Windows 10 / 11
 Navigate to where you cloned the directory in Windows Explorer and run the file `run.bat`
 
-## REMEMBER TO ALWAYS PULL BEFORE PUSHING
+## Pulling and Pushing Changes
+
+Remember to always pull changes before running the server, and to always pull beforing pushing any changes. 
+
+run `git pull` from the server directory to pull from the repo. 
 
 To push your changes, close the server and run these commands from the server directory:
 
