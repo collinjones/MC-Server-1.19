@@ -797,15 +797,15 @@
     },
     "done": true
   },
-  "mcwdoors:recipes/acacia/acacia_japanese2_door": {
-    "criteria": {
-      "has_planks": "2022-08-08 13:06:49 -0600"
-    },
-    "done": true
-  },
   "mcwdoors:recipes/print_oak": {
     "criteria": {
       "has_planks": "2022-08-08 13:06:48 -0600"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/acacia/acacia_japanese2_door": {
+    "criteria": {
+      "has_planks": "2022-08-08 13:06:49 -0600"
     },
     "done": true
   },
@@ -1325,6 +1325,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2022-08-08 14:36:00 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2022-08-07 06:49:05 -0600"
@@ -1493,6 +1499,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2022-08-08 14:35:20 -0600"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/warped_kitchen_sink_light": {
     "criteria": {
       "has_bucket": "2022-08-08 05:49:28 -0600"
@@ -1541,15 +1553,15 @@
     },
     "done": true
   },
-  "mcwdoors:recipes/crimson/crimson_modern_door": {
-    "criteria": {
-      "has_planks": "2022-08-08 13:06:49 -0600"
-    },
-    "done": true
-  },
   "mcwdoors:recipes/metal_reinforced_door": {
     "criteria": {
       "has_planks": "2022-08-08 13:06:48 -0600"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/crimson/crimson_modern_door": {
+    "criteria": {
+      "has_planks": "2022-08-08 13:06:49 -0600"
     },
     "done": true
   },
@@ -4385,6 +4397,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2022-08-08 14:36:00 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
       "has_moss_block": "2022-07-28 14:39:10 -0600"
@@ -6450,6 +6468,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2022-08-04 13:04:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2022-08-08 14:36:00 -0600"
     },
     "done": true
   },
