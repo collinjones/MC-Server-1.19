@@ -1,102 +1,89 @@
-[08Aug2022 15:14:08.957] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 41.1.0, --fml.mcVersion, 1.19, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220607.102129]
-[08Aug2022 15:14:08.959] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 12.5
-[08Aug2022 15:14:09.025] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/collinjones/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2362!/ Service=ModLauncher Env=SERVER
-[08Aug2022 15:14:09.210] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/fmlcore/1.19-41.1.0/fmlcore-1.19-41.1.0.jar is missing mods.toml file
-[08Aug2022 15:14:09.211] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/javafmllanguage/1.19-41.1.0/javafmllanguage-1.19-41.1.0.jar is missing mods.toml file
-[08Aug2022 15:14:09.211] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/lowcodelanguage/1.19-41.1.0/lowcodelanguage-1.19-41.1.0.jar is missing mods.toml file
-[08Aug2022 15:14:09.212] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/collinjones/Server/libraries/net/minecraftforge/mclanguage/1.19-41.1.0/mclanguage-1.19-41.1.0.jar is missing mods.toml file
-[08Aug2022 15:14:09.246] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[08Aug2022 15:14:09.851] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Aug2022 15:14:09.865] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[08Aug2022 15:14:09.929] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/gravestone/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.gravestone.events.DeathEvents)
-[08Aug2022 15:14:09.930] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/corpse/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.corpse.events.DeathEvents)
-[08Aug2022 15:14:12.086] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[08Aug2022 15:14:13.077] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 41.1.0, for MC 1.19 with MCP 20220607.102129
-[08Aug2022 15:14:13.077] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v41.1.0 Initialized
-[08Aug2022 15:14:13.103] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[08Aug2022 15:14:13.104] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[08Aug2022 15:14:13.104] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[08Aug2022 15:14:13.104] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[08Aug2022 15:14:13.104] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[08Aug2022 15:14:13.104] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[08Aug2022 15:14:13.104] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[08Aug2022 15:14:13.968] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 19 compatible attributes.
-[08Aug2022 15:14:13.972] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 19 values from config.
-[08Aug2022 15:14:13.977] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 19 entries.
-[08Aug2022 15:14:13.977] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 19 attributes.
-[08Aug2022 15:14:14.052] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.19
-[08Aug2022 15:14:14.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 11.1.9 Target: 11.1.9
-[08Aug2022 15:14:14.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[08Aug2022 15:14:14.671] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.0.4 Target: null
-[08Aug2022 15:14:14.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19
-[08Aug2022 15:14:14.817] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 14.2.10 Target: 14.2.10
-[08Aug2022 15:14:14.817] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
-[08Aug2022 15:14:14.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.0.6 Target: null
-[08Aug2022 15:14:14.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[08Aug2022 15:14:14.875] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Aug2022 15:14:14.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA_OUTDATED Current: 7.0.0-pre33 Target: 7.0.0-pre34
-[08Aug2022 15:14:14.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.19
-[08Aug2022 15:14:15.136] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2368!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2368!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2368!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2368!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19-41.1.0.jar%23118!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19-41.1.0.jar%23118!/:?]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2368!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2368!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2368!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2368!/:?]
-	... 6 more
-[08Aug2022 15:14:15.136] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Aug2022 15:14:15.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 41.1.0 Target: null
-[08Aug2022 15:14:15.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastleafdecay] Starting version check at https://www.olafkeijsers.net/fastleafdecay-update.json
-[08Aug2022 15:14:15.602] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/collinjones/Server/libraries/net/minecraft/server/1.19-20220607.102129/server-1.19-20220607.102129-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
-[08Aug2022 15:14:15.602] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/collinjones/Server/libraries/net/minecraft/server/1.19-20220607.102129/server-1.19-20220607.102129-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
-[08Aug2022 15:14:15.895] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastleafdecay] Found status: BETA Current: 30 Target: null
-[08Aug2022 15:14:15.895] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.19
-[08Aug2022 15:14:16.041] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 9.0.0+7 Target: 9.0.0+7
-[08Aug2022 15:14:21.614] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[08Aug2022 15:14:22.046] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement exlinecopperequipment:recipes/misc/copper_pickaxe: Unknown item id 'minecraft:copper_pickaxe'
-[08Aug2022 15:14:22.083] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2176 advancements
-[08Aug2022 15:14:23.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19
-[08Aug2022 15:14:23.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Aug2022 15:14:23.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Aug2022 15:14:23.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Aug2022 15:14:23.240] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Aug2022 15:14:23.249] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[08Aug2022 15:14:23.472] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Aug2022 15:14:23.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Aug2022 15:14:25.039] [Netty Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[08Aug2022 15:14:25.212] [Netty Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[08Aug2022 15:14:25.939] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 15:14:25.939] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 15:14:25.939] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 15:14:25.945] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 15:14:25.948] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 15:14:26.212] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 15:14:26.650] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Aug2022 15:14:27.116] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3467 ms
-[08Aug2022 15:14:27.116] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.667s)! For help, type "help"
-[08Aug2022 15:14:27.125] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Aug2022 15:14:30.284] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
-[08Aug2022 15:14:32.004] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@254364b6
-[08Aug2022 15:14:32.024] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:50854] logged in with entity id 285 at (2606.7355292630878, -47.0, 401.79541375126917)
-[08Aug2022 15:14:32.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
-[08Aug2022 15:14:34.217] [Server thread/INFO] [tombstone/]: Syncing Config on Client
-[08Aug2022 15:14:34.221] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2221ms or 44 ticks behind
-[08Aug2022 15:15:21.808] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
-[08Aug2022 15:15:21.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
-[08Aug2022 15:17:34.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08Aug2022 15:17:34.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08Aug2022 15:17:34.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08Aug2022 15:17:34.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[08Aug2022 15:17:35.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[08Aug2022 15:17:35.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[08Aug2022 15:17:35.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08Aug2022 15:17:35.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08Aug2022 15:17:35.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08Aug2022 15:17:35.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11Aug2022 00:07:25.707] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[11Aug2022 00:07:25.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
+[11Aug2022 00:17:10.440] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CowboyBird moved too quickly! 3.58123688071737,-5.0,-7.997590392664506
+[11Aug2022 00:39:07.219] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CowboyBird lost connection: Disconnected
+[11Aug2022 00:39:07.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CowboyBird left the game
+[11Aug2022 00:50:33.158] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LightningZero23 lost connection: Disconnected
+[11Aug2022 00:50:33.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LightningZero23 left the game
+[11Aug2022 03:48:48.258] [User Authenticator #17/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player CowboyBird is 4180798e-3e43-4af6-9993-82354362d697
+[11Aug2022 03:48:50.223] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@280318e8
+[11Aug2022 03:48:50.227] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CowboyBird[/127.0.0.1:52084] logged in with entity id 129240 at (2943.39917353674, 58.0, 396.28005064735464)
+[11Aug2022 03:48:50.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CowboyBird joined the game
+[11Aug2022 04:00:13.868] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CowboyBird lost connection: Disconnected
+[11Aug2022 04:00:13.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CowboyBird left the game
+[11Aug2022 05:52:38.722] [User Authenticator #18/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
+[11Aug2022 05:52:40.427] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@520f77f7
+[11Aug2022 05:52:40.431] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:52422] logged in with entity id 132714 at (2943.243934285305, 58.0, 394.14870365253125)
+[11Aug2022 05:52:40.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
+[11Aug2022 06:45:40.835] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[11Aug2022 06:45:40.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
+[11Aug2022 06:46:12.713] [User Authenticator #19/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
+[11Aug2022 06:46:14.381] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@68aadc83
+[11Aug2022 06:46:14.386] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:52926] logged in with entity id 150690 at (348.96155540097055, 55.0, 32.166014826323746)
+[11Aug2022 06:46:14.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
+[11Aug2022 07:12:42.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup has reached the goal [Zombie Doctor]
+[11Aug2022 07:56:18.550] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3989ms or 79 ticks behind
+[11Aug2022 08:01:08.579] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[11Aug2022 08:01:28.029] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2116ms or 42 ticks behind
+[11Aug2022 08:01:51.160] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2497ms or 49 ticks behind
+[11Aug2022 08:02:34.477] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5564ms or 111 ticks behind
+[11Aug2022 08:03:20.952] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2289ms or 45 ticks behind
+[11Aug2022 08:03:39.409] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2146ms or 42 ticks behind
+[11Aug2022 08:03:53.581] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup moved too quickly! 805.0918227842708,-2.052203340253726,3636.800000011921
+[11Aug2022 08:03:53.595] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup moved too quickly! 805.0918227842708,-2.052203340253726,3636.800000011921
+[11Aug2022 08:03:53.599] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup moved too quickly! 805.0918227842708,-2.052203340253726,3636.800000011921
+[11Aug2022 08:03:53.604] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup moved too quickly! 805.0918227842708,-2.052203340253726,3636.800000011921
+[11Aug2022 08:03:53.610] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup moved too quickly! 805.0918227842708,-2.052203340253726,3636.800000011921
+[11Aug2022 08:03:53.613] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup moved too quickly! 805.0918227842708,-2.052203340253726,3636.800000011921
+[11Aug2022 08:04:04.525] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[11Aug2022 08:04:04.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
+[11Aug2022 08:05:32.492] [User Authenticator #20/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
+[11Aug2022 08:05:34.171] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@9157257
+[11Aug2022 08:05:34.175] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:53516] logged in with entity id 189254 at (3762.5576122020657, 67.0, 4050.974620763761)
+[11Aug2022 08:05:34.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
+[11Aug2022 08:06:16.030] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2114ms or 42 ticks behind
+[11Aug2022 08:06:37.140] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3324ms or 66 ticks behind
+[11Aug2022 08:06:55.107] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2391ms or 47 ticks behind
+[11Aug2022 08:17:31.776] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[11Aug2022 08:17:31.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
+[11Aug2022 08:36:25.843] [User Authenticator #21/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
+[11Aug2022 08:36:27.524] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@508c447f
+[11Aug2022 08:36:27.529] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:53806] logged in with entity id 197720 at (2946.06826765176, 63.0, 416.136207403636)
+[11Aug2022 08:36:27.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
+[11Aug2022 08:36:29.791] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[11Aug2022 08:36:29.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
+[11Aug2022 08:37:02.786] [User Authenticator #22/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
+[11Aug2022 08:37:04.474] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3c759c6a
+[11Aug2022 08:37:04.478] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:53840] logged in with entity id 197952 at (2946.06826765176, 63.0, 416.136207403636)
+[11Aug2022 08:37:04.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
+[11Aug2022 08:37:06.893] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[11Aug2022 08:37:06.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
+[11Aug2022 08:37:36.514] [User Authenticator #23/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
+[11Aug2022 08:37:38.174] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1578211d
+[11Aug2022 08:37:38.178] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:53870] logged in with entity id 198194 at (2946.06826765176, 63.0, 416.136207403636)
+[11Aug2022 08:37:38.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
+[11Aug2022 09:18:34.489] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3761ms or 75 ticks behind
+[11Aug2022 09:30:52.480] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[11Aug2022 09:30:52.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
+[11Aug2022 09:32:49.313] [User Authenticator #24/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player RufferedUpPup is a14796c1-ff40-4717-afe9-452409c46385
+[11Aug2022 09:32:50.975] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4fcdf056
+[11Aug2022 09:32:50.980] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RufferedUpPup[/127.0.0.1:54398] logged in with entity id 213877 at (2961.442067645616, 63.0, 391.4944366296865)
+[11Aug2022 09:32:50.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup joined the game
+[11Aug2022 09:35:47.662] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/213902, l='ServerLevel[New World]', x=2966.82, y=63.94, z=368.44] died, message: 'Nitwit was slain by RufferedUpPup'
+[11Aug2022 09:35:47.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup has made the advancement [Neighborhood Brawl]
+[11Aug2022 09:40:43.052] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[11Aug2022 09:50:23.969] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/222240, l='ServerLevel[New World]', x=3740.70, y=71.00, z=4032.67] died, message: 'Nitwit was slain by Zombie'
+[11Aug2022 09:54:49.474] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1f5af1e9
+[11Aug2022 10:18:16.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup has made the advancement [A Throwaway Joke]
+[11Aug2022 10:23:22.814] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RufferedUpPup lost connection: Disconnected
+[11Aug2022 10:23:22.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RufferedUpPup left the game
+[11Aug2022 10:23:43.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11Aug2022 10:23:43.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11Aug2022 10:23:43.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11Aug2022 10:23:44.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[11Aug2022 10:23:44.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[11Aug2022 10:23:44.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[11Aug2022 10:23:44.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11Aug2022 10:23:44.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11Aug2022 10:23:44.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11Aug2022 10:23:44.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
