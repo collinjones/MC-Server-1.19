@@ -641,6 +641,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
+    },
+    "done": true
+  },
   "mcwdoors:recipes/spruce/spruce_paper_door": {
     "criteria": {
       "has_planks": "2022-08-08 13:06:48 -0600"
@@ -650,6 +656,12 @@
   "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2022-07-26 19:43:48 -0600"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_acacia_upgraded_fence": {
+    "criteria": {
+      "has_log": "2022-08-12 15:02:13 -0600"
     },
     "done": true
   },
@@ -887,6 +899,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2022-07-29 00:52:17 -0600"
@@ -1067,6 +1085,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2022-07-31 10:19:40 -0600"
@@ -1088,6 +1112,12 @@
   "minecraft:recipes/food/cooked_chicken_from_grill_cooking": {
     "criteria": {
       "has_chicken": "2022-08-08 05:36:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_acacia_wood": {
+    "criteria": {
+      "has_log": "2022-08-12 15:02:13 -0600"
     },
     "done": true
   },
@@ -1166,6 +1196,12 @@
   "mcwdoors:recipes/dark_oak/dark_oak_cottage_door": {
     "criteria": {
       "has_planks": "2022-08-08 13:06:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
     },
     "done": true
   },
@@ -1661,6 +1697,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_planks": "2022-07-27 06:47:51 -0600"
@@ -2007,6 +2049,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2022-08-13 07:02:57 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2022-07-26 18:46:40 -0600"
@@ -2112,6 +2160,12 @@
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2022-08-03 23:59:23 -0600"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_spruce_crate": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
     },
     "done": true
   },
@@ -2463,6 +2517,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2022-07-26 18:52:38 -0600"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_spruce_table": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
     },
     "done": true
   },
@@ -2922,6 +2982,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2022-07-26 19:42:31 -0600"
@@ -3015,6 +3081,12 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2022-07-31 10:19:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
     },
     "done": true
   },
@@ -3123,6 +3195,12 @@
   "minecraft:recipes/decorations/blackstone_wall": {
     "criteria": {
       "has_blackstone": "2022-08-06 19:25:00 -0600"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_spruce_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2022-08-13 08:12:59 -0600"
     },
     "done": true
   },
@@ -3321,6 +3399,12 @@
   "cfm:recipes/cfm/stripped_crimson_kitchen_drawer": {
     "criteria": {
       "has_chest": "2022-08-08 04:43:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2022-08-13 07:02:10 -0600"
     },
     "done": true
   },
@@ -3913,6 +3997,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/crimson_kitchen_sink_light": {
     "criteria": {
       "has_bucket": "2022-08-08 05:49:28 -0600"
@@ -4075,6 +4165,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/stripped_spruce_desk": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/brick": {
     "criteria": {
       "has_clay_ball": "2022-07-26 18:38:32 -0600"
@@ -4222,6 +4318,12 @@
   "cfm:recipes/cfm/stripped_dark_oak_upgraded_gate": {
     "criteria": {
       "has_gate": "2022-08-08 05:04:23 -0600"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_spruce_bedside_cabinet": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
     },
     "done": true
   },
@@ -4393,6 +4495,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/stripped_spruce_cabinet": {
+    "criteria": {
+      "has_planks": "2022-08-13 08:12:59 -0600"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/stripped_mangrove_kitchen_sink_dark": {
     "criteria": {
       "has_bucket": "2022-08-08 05:49:28 -0600"
@@ -4420,6 +4528,12 @@
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2022-07-29 00:34:13 -0600"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_spruce_blinds": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
     },
     "done": true
   },
@@ -4480,6 +4594,12 @@
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
       "has_blaze_powder": "2022-08-07 06:49:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2022-08-13 07:02:57 -0600"
     },
     "done": true
   },
@@ -5035,6 +5155,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/stripped_spruce_desk_cabinet": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2022-07-28 11:44:24 -0600"
@@ -5426,6 +5552,12 @@
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-07-26 18:32:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2022-08-13 07:12:55 -0600"
     },
     "done": true
   },
@@ -5891,9 +6023,21 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2022-08-13 07:02:57 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-07-29 00:11:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2022-08-13 07:06:07 -0600"
     },
     "done": true
   },
@@ -5954,6 +6098,12 @@
   "cfm:recipes/cfm/stripped_oak_table": {
     "criteria": {
       "has_planks": "2022-08-11 00:00:06 -0600"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_spruce_park_bench": {
+    "criteria": {
+      "has_planks": "2022-08-13 08:12:59 -0600"
     },
     "done": true
   },
@@ -6065,6 +6215,12 @@
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_cod": "2022-08-07 06:58:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
     },
     "done": true
   },
@@ -6530,6 +6686,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/stripped_spruce_coffee_table": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
+    },
+    "done": true
+  },
   "tombstone:recipes/from_decorative_grave": {
     "criteria": {
       "has_ingredient": "2022-08-02 17:23:08 -0600"
@@ -6647,6 +6809,12 @@
   "cfm:recipes/cfm/stripped_birch_upgraded_gate": {
     "criteria": {
       "has_gate": "2022-08-08 05:04:23 -0600"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_spruce_upgraded_fence": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
     },
     "done": true
   },
@@ -7022,6 +7190,12 @@
     },
     "done": true
   },
+  "cfm:recipes/cfm/stripped_spruce_chair": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_white_dye": "2022-08-04 13:16:49 -0600"
@@ -7079,6 +7253,12 @@
   "cfm:recipes/cfm/magenta_cooler": {
     "criteria": {
       "has_chest": "2022-08-08 04:43:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
     },
     "done": true
   },
@@ -7406,6 +7586,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-08-13 07:02:58 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2022-07-30 05:54:13 -0600"
@@ -7439,6 +7625,18 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2022-07-30 06:41:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2022-08-13 08:12:59 -0600"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_acacia_blinds": {
+    "criteria": {
+      "has_log": "2022-08-12 15:02:13 -0600"
     },
     "done": true
   },
